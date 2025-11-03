@@ -1,4 +1,5 @@
 # Valence-Assent-Axis
+Data for paper https://arxiv.org/abs/2510.27328
 
 The `data` folder contains datasets used in the experiments.  
 - The `value` subfolder holds data for the Value Judgment task.  
