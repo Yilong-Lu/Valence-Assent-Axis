@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic JSON Viewer (with Alpha Filtering)</title>
+    <style>
+        /* --- 基本样式 --- */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+            color: #212529;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* --- 布局容器 --- */
+        main {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* --- 头部区域 --- */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        header h1 { color: #343a40; }
+        header p { color: #6c757d; font-size: 1.1rem; }
+
+        /* --- 控制区域 --- */
+        .controls-container {
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-bottom: 30px;
+        }
+        .controls-container label {
+            font-weight: bold;
+            color: #495057;
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="file"], select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        /* --- 筛选区域 --- */
+        #filter-container {
+            display: none; /* 默认隐藏 */
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        /* --- 数据展示卡片 --- */
+        .item-card {
+            background: #ffffff;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            overflow: hidden;
+            border: 1px solid #e9ecef;
+        }
+        .card-header {
+            background-color: #f1f3f5;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #495057;
+            border-bottom: 1px solid #dee2e6;
+        }
+        .card-body { padding: 20px; }
+        .card-body h4 {
+            color: #007bff;
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+
+        /* --- 强制换行样式 --- */
+        .prompt-content, .response-content, .info-item span {
+            white-space: pre-wrap;   /* 保持换行符和空格，但允许自动换行 */
+            word-wrap: break-word;   /* 旧版浏览器兼容 */
+            overflow-wrap: break-word; /* 标准属性，强制在长单词内换行 */
+            word-break: break-all;     /* 备用，更强的断词策略 */
+        }
+
+        .prompt-content {
+            background-color: #e9f7ff;
+            border-left: 4px solid #007bff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .response-content {
+            background-color: #fdfdfe;
+            border: 1px solid #e9ecef;
+            padding: 15px;
+            border-radius: 4px;
+            font-family: "Courier New", monospace; /* 使用等宽字体以更好显示JSON字符串 */
+        }
+        
+        .extra-info-section {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px dashed #ced4da;
+        }
+        .extra-info-section h4 { color: #28a745; border-bottom-color: #28a745; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .info-item {
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        .info-item strong {
+            color: #495057;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .highlight-number {
+            background-color: #ffc107;
+            color: #212529;
+            padding: 1px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .initial-message {
+            text-align: center;
+            color: #6c757d;
+            padding: 40px 20px;
+            background-color: #f1f3f5;
+            border-radius: 8px;
+            border: 2px dashed #ced4da;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Dynamic JSON Viewer (with Alpha Filtering) 🔬</h1>
+            <p>Upload a JSON file, and the tool will automatically generate filters and display the data.</p>
+        </header>
+
+        <div class="controls-container">
+            <div>
+                <label for="jsonFileInput">1. Select JSON file to analyze</label>
+                <input type="file" id="jsonFileInput" accept=".json">
+            </div>
+            <div id="filter-container">
+                </div>
+        </div>
+
+        <div id="displayArea">
+             </div>
+    </main>
+
+    <script>
+        const fileInput = document.getElementById('jsonFileInput');
+        const displayArea = document.getElementById('displayArea');
+        const filterContainer = document.getElementById('filter-container');
+
+        let fullData = [];
+
+        function highlightNumbers(text) {
+            if (typeof text !== 'string' && typeof text !== 'number') return text;
+            return String(text).replace(/(-?\d+(\.\d+)?)/g, '<span class="highlight-number">$1</span>');
+        }
+        
+        function renderData(dataToRender) {
+            displayArea.innerHTML = ''; 
+            if (dataToRender.length === 0) {
+                // 已翻译
+                displayArea.innerHTML = '<p class="initial-message">No data matches the filter criteria.</p>';
+                return;
+            }
+
+            dataToRender.forEach((item, index) => {
+                const promptHTML = item.prompt_data.map(p => 
+                    `<strong>Role: ${p.role}</strong><div class="prompt-content">${p.content}</div>`
+                ).join('');
+
+                const responseHTML = `<div class="response-content">${item.responses.trim()}</div>`;
+                
+                let extraInfoHTML = '';
+                const extraFields = {};
+                // Note: Keys (e.g., 'Domain', 'Condition') are already in English
+                if ('domain' in item) {
+                    extraFields['Domain'] = item.domain;
+                    extraFields['Condition'] = item.condition;
+                    extraFields['Correct Word'] = item.w_right;
+                    extraFields['Wrong Word'] = item.w_wrong;
+                    extraFields['First Word'] = item.w_first;
+                    extraFields['Correct Answer'] = item.correct_answer;
+                }
+                else if ('question' in item) {
+                    extraFields['Question'] = item.question;
+                    extraFields['Correct Answer'] = item.correct_answer;
+                }
+                else if ('statement' in item) {
+                    extraFields['Statement'] = item.statement;
+                    extraFields['Group'] = item.Group;
+                    extraFields['CH Statement'] = item.CH;
+                }
+
+                if (Object.keys(extraFields).length > 0) {
+                    extraInfoHTML = `
+                        <div class="extra-info-section">
+                            <h4>Additional Information</h4>
+                            <div class="info-grid">
+                                ${Object.entries(extraFields).map(([key, value]) => `
+                                    <div class="info-item">
+                                        <strong>${key}</strong>
+                                        <span>${highlightNumbers(String(value))}</span>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                const cardHTML = `
+                    <div class="item-card">
+                        <div class="card-header">
+                            <span><strong>Item #:</strong> ${index + 1}</span>
+                            <div>
+                                <span style="margin-right: 20px;"><strong>Layer:</strong> ${highlightNumbers(item.layer)}</span>
+                                <span><strong>Alpha:</strong> ${highlightNumbers(item.alpha)}</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h4>Prompt</h4>
+                            ${promptHTML}
+                            <h4>Response</h4>
+                            ${responseHTML}
+                            ${extraInfoHTML}
+                        </div>
+                    </div>
+                `;
+                displayArea.innerHTML += cardHTML;
+            });
+        }
+
+        function applyFilters() {
+            let filteredData = [...fullData];
+            
+            // ! 新增: Alpha 筛选 (Comment in Chinese, no change needed for code)
+            const alphaFilter = document.getElementById('filter-alpha');
+            if (alphaFilter && alphaFilter.value !== 'all') {
+                // Select option value is a string, so we compare strings
+                filteredData = filteredData.filter(item => String(item.alpha) === alphaFilter.value);
+            }
+
+            const statementFilter = document.getElementById('filter-statement');
+            if (statementFilter && statementFilter.value !== 'all') {
+                filteredData = filteredData.filter(item => item.statement === statementFilter.value);
+            }
+            const questionFilter = document.getElementById('filter-question');
+            if (questionFilter && questionFilter.value !== 'all') {
+                filteredData = filteredData.filter(item => item.question === questionFilter.value);
+            }
+            const domainFilter = document.getElementById('filter-domain');
+            if (domainFilter && domainFilter.value !== 'all') {
+                filteredData = filteredData.filter(item => item.domain === domainFilter.value);
+            }
+            const conditionFilter = document.getElementById('filter-condition');
+            if (conditionFilter && conditionFilter.value !== 'all') {
+                filteredData = filteredData.filter(item => item.condition === conditionFilter.value);
+            }
+            const wRightFilter = document.getElementById('filter-w_right');
+            if (wRightFilter && wRightFilter.value !== 'all') {
+                filteredData = filteredData.filter(item => item.w_right === wRightFilter.value);
+            }
+            renderData(filteredData);
+        }
+
+        function createSelectFilter(id, labelText, fieldName) {
+            let uniqueValues = [...new Set(fullData.map(item => item[fieldName]))];
+            
+            // ! 改进: 智能排序，对数字按大小排序 (Comment in Chinese)
+            if (uniqueValues.length > 0 && typeof uniqueValues[0] === 'number') {
+                uniqueValues.sort((a, b) => a - b);
+            } else {
+                uniqueValues.sort();
+            }
+
+            const filterGroup = document.createElement('div');
+            const label = document.createElement('label');
+            label.htmlFor = id;
+            label.textContent = labelText; // labelText is already passed in English
+            filterGroup.appendChild(label);
+            const select = document.createElement('select');
+            select.id = id;
+            // 已翻译 "所有"
+            select.innerHTML = `<option value="all">All ${labelText}</option>`;
+            uniqueValues.forEach(value => {
+                select.innerHTML += `<option value="${value}">${value}</option>`;
+            });
+            select.addEventListener('change', applyFilters);
+            filterGroup.appendChild(select);
+            filterContainer.appendChild(filterGroup);
+        }
+
+        function createFilters() {
+            filterContainer.innerHTML = ''; 
+            if (fullData.length === 0) {
+                filterContainer.style.display = 'none';
+                return;
+            }
+
+            // ! 新增: 始终创建 alpha 筛选器 (Comment in Chinese)
+            if ('alpha' in fullData[0]) {
+                 createSelectFilter('filter-alpha', 'Alpha', 'alpha');
+            }
+
+            const firstItem = fullData[0];
+            // Note: Filter labels passed here are already in English
+            if ('statement' in firstItem) {
+                createSelectFilter('filter-statement', 'Statement', 'statement');
+            } else if ('question' in firstItem) {
+                createSelectFilter('filter-question', 'Question', 'question');
+            } else if ('domain' in firstItem) {
+                createSelectFilter('filter-domain', 'Domain', 'domain');
+                createSelectFilter('filter-condition', 'Condition', 'condition');
+                createSelectFilter('filter-w_right', 'Correct Word', 'w_right');
+            }
+
+            if (filterContainer.childElementCount > 0) {
+                filterContainer.style.display = 'grid';
+            }
+        }
+        
+        function setInitialMessage() {
+            // 已翻译
+            displayArea.innerHTML = '<p class="initial-message">File loaded. Please select an item from the filters above to display content.</p>';
+        }
+
+        function handleFileSelect(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    if (!Array.isArray(data)) {
+                        // 已翻译
+                        throw new Error("JSON file content must be an array.");
+                    }
+                    fullData = data;
+                    createFilters(); 
+                    setInitialMessage();
+                } catch (error) {
+                    // 已翻译
+                    alert(`Error parsing JSON file: ${error.message}`);
+                    console.error("JSON Parsing Error:", error);
+                    fullData = [];
+                    createFilters();
+                    renderData([]); 
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        fileInput.addEventListener('change', handleFileSelect, false);
+        // 已翻译
+        displayArea.innerHTML = '<p class="initial-message">Please select a JSON file first.</p>';
+
+    </script>
+</body>
+</html>
