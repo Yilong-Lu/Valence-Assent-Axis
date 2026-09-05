@@ -1,0 +1,13 @@
+# Direct Python packages used in the 2026-08-31 release QA environment.
+# Install a platform-appropriate PyTorch build separately for GPU experiments.
+matplotlib==3.10.9
+nbformat==5.10.4
+numpy==2.2.5
+pandas==2.3.3
+PyYAML==6.0.3
+scikit-learn==1.7.2
+scipy==1.15.3
+seaborn==0.13.2
+statsmodels==0.14.6
+transformers==5.12.1
+tomli==2.4.0

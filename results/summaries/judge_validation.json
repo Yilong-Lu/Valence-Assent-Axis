@@ -1,0 +1,146 @@
+{
+  "reasoning_expert_reliability": [
+    {
+      "score_type": "FC",
+      "n_rated": 120,
+      "n_agreement": 113,
+      "n_disagreement_excluded": 7,
+      "exact_percent_agreement": 0.9416666666666667,
+      "quadratic_weighted_kappa": 0.9597469810235768,
+      "unweighted_kappa": 0.8636806231742941
+    },
+    {
+      "score_type": "LC",
+      "n_rated": 120,
+      "n_agreement": 113,
+      "n_disagreement_excluded": 7,
+      "exact_percent_agreement": 0.9416666666666667,
+      "quadratic_weighted_kappa": 0.8761904761904762,
+      "unweighted_kappa": 0.8222222222222222
+    },
+    {
+      "score_type": "RS",
+      "n_rated": 120,
+      "n_agreement": 117,
+      "n_disagreement_excluded": 3,
+      "exact_percent_agreement": 0.975,
+      "quadratic_weighted_kappa": 0.8522167487684729,
+      "unweighted_kappa": 0.6571428571428571
+    }
+  ],
+  "reasoning_judge_validation": [
+    {
+      "judge": "DeepSeek V3",
+      "score_type": "FC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.8445845272206304,
+      "percent_agreement": 0.9203539823008849
+    },
+    {
+      "judge": "DeepSeek V3",
+      "score_type": "LC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.7912510160348777,
+      "percent_agreement": 0.911504424778761
+    },
+    {
+      "judge": "DeepSeek V3",
+      "score_type": "RS",
+      "n_consensus": 117,
+      "quadratic_weighted_kappa": 0.6213592233009708,
+      "percent_agreement": 0.9658119658119658
+    },
+    {
+      "judge": "DeepSeek R1",
+      "score_type": "FC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.8709911779968864,
+      "percent_agreement": 0.9380530973451328
+    },
+    {
+      "judge": "DeepSeek R1",
+      "score_type": "LC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.8289106701729221,
+      "percent_agreement": 0.911504424778761
+    },
+    {
+      "judge": "DeepSeek R1",
+      "score_type": "RS",
+      "n_consensus": 117,
+      "quadratic_weighted_kappa": 0.6201298701298701,
+      "percent_agreement": 0.9316239316239316
+    },
+    {
+      "judge": "Qwen3-30B-A3B-Instruct",
+      "score_type": "FC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.8694464867135805,
+      "percent_agreement": 0.9380530973451328
+    },
+    {
+      "judge": "Qwen3-30B-A3B-Instruct",
+      "score_type": "LC",
+      "n_consensus": 113,
+      "quadratic_weighted_kappa": 0.6562301939409304,
+      "percent_agreement": 0.8407079646017699
+    },
+    {
+      "judge": "Qwen3-30B-A3B-Instruct",
+      "score_type": "RS",
+      "n_consensus": 117,
+      "quadratic_weighted_kappa": 0.557004627681952,
+      "percent_agreement": 0.9487179487179487
+    }
+  ],
+  "stance_judge_validation": [
+    {
+      "measure": "final_stance",
+      "judge": "Human experts",
+      "n": 30,
+      "icc_2_1": 0.9603554340396447
+    },
+    {
+      "measure": "final_stance",
+      "judge": "DeepSeek V3",
+      "n": 30,
+      "icc_2_1": 0.9745900613343348
+    },
+    {
+      "measure": "final_stance",
+      "judge": "DeepSeek R1",
+      "n": 30,
+      "icc_2_1": 0.8360810174281676
+    },
+    {
+      "measure": "final_stance",
+      "judge": "Qwen3-30B-A3B-Instruct",
+      "n": 30,
+      "icc_2_1": 0.9849413230865094
+    },
+    {
+      "measure": "reasoning_stance",
+      "judge": "Human experts",
+      "n": 30,
+      "icc_2_1": 0.9876121315677061
+    },
+    {
+      "measure": "reasoning_stance",
+      "judge": "DeepSeek V3",
+      "n": 30,
+      "icc_2_1": 0.9397972890462816
+    },
+    {
+      "measure": "reasoning_stance",
+      "judge": "DeepSeek R1",
+      "n": 30,
+      "icc_2_1": 0.9427609427609428
+    },
+    {
+      "measure": "reasoning_stance",
+      "judge": "Qwen3-30B-A3B-Instruct",
+      "n": 30,
+      "icc_2_1": 0.9690842188520926
+    }
+  ]
+}

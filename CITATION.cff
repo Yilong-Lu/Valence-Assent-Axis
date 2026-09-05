@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software or its data products, please cite the accompanying manuscript."
+title: "Valence-Assent Axis: experiment and analysis code"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Yilong-Lu/Valence-Assent-Axis"
+authors:
+  - family-names: Lu
+    given-names: Yi-Long
+  - family-names: Song
+    given-names: Jiajun
+  - family-names: Wang
+    given-names: Wei
+abstract: >-
+  Reproducible experiment runners, selected Valence-Assent Axis vectors,
+  analysis data, statistical models, and manuscript figure builders for the
+  study "Subjective Valence and Factual Assent are Jointly Represented in
+  Large Language Models."
+keywords:
+  - large language models
+  - representation engineering
+  - model steering
+  - sycophancy
+  - factual judgment
+references:
+  - type: dataset
+    title: "Data for Subjective Valence and Factual Assent are Jointly Represented in Large Language Models"
+    authors:
+      - family-names: Lu
+        given-names: Yi-Long
+      - family-names: Song
+        given-names: Jiajun
+      - family-names: Wang
+        given-names: Wei
+    year: 2026
+    doi: 10.5281/zenodo.22304165

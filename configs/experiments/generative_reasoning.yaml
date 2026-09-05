@@ -1,0 +1,28 @@
+schema_version: 1
+normalized_alpha_grid: [-1.0, -0.8, -0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+generation:
+  batch_size: 8
+  max_input_tokens: 512
+  max_new_tokens: 512
+  do_sample: true
+  temperature: 0.2
+  top_p: 1.0
+  top_k: 50
+  seed: 0
+tasks:
+  alphabetical_order:
+    display_name: Alphabetical Order Task
+    stimulus_file: data/stimuli/alphabetical_order/word_pairs.json
+    conditions:
+      think_then_answer: alphabetical_think_then_answer_submitted_v1
+      answer_then_think: alphabetical_answer_then_think_submitted_v1
+    answer_labels: [right, wrong]
+  factual_judgment:
+    display_name: Factual Judgment Task
+    stimulus_file: data/stimuli/factual_judgment/questions.json
+    prompt: factual_judgment_submitted_v1
+    answer_labels: [yes, no]
+  stance_taking:
+    display_name: Stance-Taking Task
+    stimulus_file: data/stimuli/stance_taking/statements.json
+    prompt: stance_reasoning_submitted_v1

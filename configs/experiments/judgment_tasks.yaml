@@ -1,0 +1,35 @@
+schema_version: 1
+normalized_alpha_grid: [-1.0, -0.8, -0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+tasks:
+  value_judgment_binary:
+    display_name: "Value Judgment: Binary Choice"
+    prompt: value_judgment_binary_v1
+    stimulus_files:
+      - data/stimuli/value_judgment/extraction_statements.json
+      - data/stimuli/value_judgment/held_out_statements.json
+    candidates: [A, B]
+    candidate_values: [1.0, 0.0]
+  value_judgment_continuous:
+    display_name: "Value Judgment: Continuous Rating"
+    prompt: value_judgment_continuous_v1
+    stimulus_files:
+      - data/stimuli/value_judgment/extraction_statements.json
+      - data/stimuli/value_judgment/held_out_statements.json
+    candidates: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    candidate_values: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+  sentiment_analysis_binary:
+    display_name: "Sentiment Analysis: Binary Choice"
+    prompt: sentiment_analysis_binary_v1
+    stimulus_files:
+      - data/stimuli/sentiment_analysis/development_headlines.json
+      - data/stimuli/sentiment_analysis/held_out_headlines.json
+    candidates: [M, N]
+    candidate_values: [1.0, 0.0]
+  sentiment_analysis_continuous:
+    display_name: "Sentiment Analysis: Continuous Rating"
+    prompt: sentiment_analysis_continuous_v1
+    stimulus_files:
+      - data/stimuli/sentiment_analysis/development_headlines.json
+      - data/stimuli/sentiment_analysis/held_out_headlines.json
+    candidates: ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    candidate_values: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]

@@ -1,0 +1,61 @@
+schema_version: 1
+files:
+  data/stimuli/value_judgment/extraction_statements.json:
+    rows: 134
+    sha256: 0aca47cb0a06175efa1e46afd33c059dbda3488a1f3e111678b331db39222e91
+  data/stimuli/value_judgment/held_out_statements.json:
+    rows: 41
+    sha256: 51fbc6f40868649abb129a7da9ff05d4bc6d0ba3fa6b92f6066c89eb5fb31922
+  data/stimuli/sentiment_analysis/development_headlines.json:
+    rows: 134
+    sha256: 195892f4a8c78d644f1ea835283aff0112fb9bf01abcc528a11144a403c839a7
+  data/stimuli/sentiment_analysis/held_out_headlines.json:
+    rows: 41
+    sha256: 67dd948325e5387617d5bcaf98bcddbb35e57a2037cad6feebb096da235b31b6
+  data/stimuli/valence/word_pairs.json:
+    rows: 80
+    sha256: 987adc5b429ea6d7caa7c1adb1deadc278a6276ed3ea775b824d2fce33f040d8
+  data/stimuli/single_letter_order/letter_pairs.json:
+    rows: 50
+    sha256: 6945ed141af7160dbee40717e9284027c3ebc38fd9fc8be170c247bf632b7973
+  data/stimuli/subjective_preference/word_pairs.json:
+    rows: 209
+    sha256: 4573ec1f8f6d2f3dcf9f54ef086aefb9dbfc1e3dcaa7ffab37f55317fc9bb88e
+  data/stimuli/arithmetic_answering_verification/expressions.json:
+    rows: 150
+    sha256: d3fab713d0c01722162553159cdb05a43a18bdc81eae68beff8bf4f3f81267b4
+  data/stimuli/alphabetical_order/word_pairs.json:
+    rows: 30
+    sha256: 47725bbea3937adecfb640d2826b5adeb82e37acf44d07cfb6fa9d2238fdacf8
+  data/stimuli/factual_judgment/questions.json:
+    rows: 30
+    sha256: 9b3125de7fdabff6ceeb72045e526c57d4a8682af44739f4800d25883d2b14d4
+  data/stimuli/stance_taking/statements.json:
+    rows: 30
+    sha256: 3982e3c493b5f03ee64f2a81d8bdbd7f0893600dd8e2137e8f8b3ccf5cdcdcf3
+  data/stimuli/feedback_induced_sycophancy/argument_selection.json:
+    rows: 296
+    source_url: https://raw.githubusercontent.com/meg-tong/sycophancy-eval/9a1694221e3639887138f61deae344335eca6752/datasets/feedback.jsonl
+    role: Text-free selection and subset manifest for user-supplied upstream arguments.
+    preparation_script: analysis/python/prepare_feedback_stimuli.py
+  data/judge_validation/evaluated_results.csv:
+    rows: 120
+    sha256: 3f30b752b41ced99e3823a5ba44496488b4561301274c7f70aaee71bb5c6697a
+  data/judge_validation/eval_sample_sample_models_deepseek_r1.json:
+    rows: 120
+    sha256: cf2bd0f9697c2e7321c0c730ee6dd7e587e1db44623df88f52c23d899819f495
+  data/judge_validation/eval_sample_sample_models_deepseek_v3.json:
+    rows: 120
+    sha256: ac5b5a30865b7aebc18f2eaeabaefec2c65a977512c16e133abcf1d06b2e6306
+  data/judge_validation/eval_sample_sample_models_qwen3_32b.json:
+    rows: 120
+    sha256: af6c06929f58279c39b543bc29e282fd6a1803bc7ae4754ec42f256fee80125b
+  data/judge_validation/stance_evaluated_results.csv:
+    rows: 30
+    sha256: 7f9a55bad7bd00231d3ff3e702223f5edb498dda2fc47bae6509dadc074374ef
+  data/judge_validation/answer_stance.csv:
+    rows: 30
+    sha256: 6c4b676577c3c3cd85730fb98a88800abdf1f98d3d9bef973471970e0d790660
+  data/judge_validation/think_stance.csv:
+    rows: 30
+    sha256: cf44adbb1e9dd5e98e4e190641f942c30c2dfdc97ce0ac54b2577a1ceff85274

@@ -1,0 +1,9 @@
+schema_version: 1
+display_name: Arithmetic Answering and Verification Task
+prompts:
+  direct_numeric: arithmetic_direct_numeric_v1
+  verification: arithmetic_verification_v1
+stimulus_file: data/stimuli/arithmetic_answering_verification/expressions.json
+normalized_alpha_grid: [-1.0, -0.8, -0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+primary_outcome: candidate_accuracy
+candidate_scoring: full_sequence_log_probability

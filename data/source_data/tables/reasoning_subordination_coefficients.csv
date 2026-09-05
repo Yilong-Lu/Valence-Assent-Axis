@@ -1,0 +1,10 @@
+task_condition,reasoning_pattern,log_odds_coefficient,credible_interval_lower,credible_interval_upper,reference_category
+Alphabetical Order (think-then-answer),Coherent Hallucination,-2.47,-2.87,-2.08,Sound Reasoning
+Alphabetical Order (think-then-answer),Incoherent Hallucination,-2.02,-2.46,-1.61,Sound Reasoning
+Alphabetical Order (think-then-answer),Contradictory Reasoning,-2.32,-2.82,-1.87,Sound Reasoning
+Alphabetical Order (answer-then-think),Coherent Hallucination,-2.95,-3.40,-2.52,Sound Reasoning
+Alphabetical Order (answer-then-think),Incoherent Hallucination,-2.69,-3.20,-2.19,Sound Reasoning
+Alphabetical Order (answer-then-think),Contradictory Reasoning,-1.85,-2.31,-1.43,Sound Reasoning
+Factual Judgment,Coherent Hallucination,-2.97,-3.77,-2.28,Sound Reasoning
+Factual Judgment,Incoherent Hallucination,-2.90,-3.80,-2.07,Sound Reasoning
+Factual Judgment,Contradictory Reasoning,-2.72,-3.48,-2.05,Sound Reasoning

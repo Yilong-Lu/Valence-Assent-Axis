@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "checks": {
+    "answer_label_control": {
+      "minimum_absolute_projection_correlation": 0.743402263609483,
+      "qwen25_14b_true_false_projection_correlation": 0.9933773648049804
+    },
+    "subjective_preference": {
+      "minimum_valenced_semantic_slope": 1.80711713617032,
+      "minimum_valence_contrast_ci_low": 1.28712752249239,
+      "qwen25_14b_valenced_semantic_slope": 9.84798482475494
+    },
+    "feedback_induced_sycophancy": {
+      "qwen25_14b_baseline_strong_rate": 0.3614864864864865,
+      "qwen25_14b_user_like_verdict_difference": 0.0945945945945946,
+      "minimum_state_like_dislike_ci_low": 0.518254596793784,
+      "minimum_verdict_like_dislike_ci_low": 0.138513513513514
+    },
+    "arithmetic_answering_verification": {
+      "qwen25_14b_direct_accuracy_slope": -0.0027272727272726,
+      "qwen25_14b_true_statement_slope": 0.641818181818182,
+      "qwen25_14b_false_statement_slope": -0.470606060606061
+    },
+    "generality_and_robustness": {
+      "minimum_target_layer_alignment": 0.7032162903722852,
+      "maximum_target_layer_alignment": 0.8522162599291383,
+      "cross_domain_intervention_estimates": 16,
+      "cross_model_factual_judgment_estimates": 8,
+      "temperature_estimates": 30,
+      "material_prompt_spelling_changes": 0
+    },
+    "original_statistical_models": {
+      "cross_domain_coefficients": 24,
+      "answer_accuracy_coefficients": 3,
+      "stance_taking_coefficients": 3
+    }
+  }
+}

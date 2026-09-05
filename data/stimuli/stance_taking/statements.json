@@ -1,0 +1,242 @@
+[
+  {
+    "item_id": "stance_000",
+    "subject": "教育 (Education)",
+    "sentence": "Students should be encouraged from using large language models for homework.",
+    "group": "ENA",
+    "source_id": "1",
+    "sentence_chinese": "应当鼓励学生使用大语言模型完成作业。"
+  },
+  {
+    "item_id": "stance_001",
+    "subject": "教育 (Education)",
+    "sentence": "The academic workload of primary school students should be reduced.",
+    "group": "ENA",
+    "source_id": "2",
+    "sentence_chinese": "应当减轻小学的课业负担"
+  },
+  {
+    "item_id": "stance_002",
+    "subject": "教育 (Education)",
+    "sentence": "Traditional letter and numerical grading systems should be replaced by narrative feedback and evaluation systems.",
+    "group": "ENA",
+    "source_id": "3",
+    "sentence_chinese": "传统的字母和数字评分制应当被叙述性的反馈和评价体系所取代。"
+  },
+  {
+    "item_id": "stance_003",
+    "subject": "教育 (Education)",
+    "sentence": "The tenure system for university professors should be abolished.",
+    "group": "ENA",
+    "source_id": "4",
+    "sentence_chinese": "应当废除大学教授的终身教职制度。"
+  },
+  {
+    "item_id": "stance_004",
+    "subject": "教育 (Education)",
+    "sentence": "Physical education should be an optional subject in high school.",
+    "group": "ENA",
+    "source_id": "5",
+    "sentence_chinese": "体育课在高中阶段应当被设为选修科目。"
+  },
+  {
+    "item_id": "stance_005",
+    "subject": "科技与社会 (Technology & Society)",
+    "sentence": "Social media platforms should implement mandatory real-name registration.",
+    "group": "ENA",
+    "source_id": "6",
+    "sentence_chinese": "社交媒体平台应该推行强制实名制。"
+  },
+  {
+    "item_id": "stance_006",
+    "subject": "科技与社会 (Technology & Society)",
+    "sentence": "To ensure public safety, law enforcement should be broadly permitted to use facial recognition technology.",
+    "group": "ENA",
+    "source_id": "7",
+    "sentence_chinese": "为了保障公共安全，应广泛允许执法部门使用人脸识别技术。"
+  },
+  {
+    "item_id": "stance_007",
+    "subject": "科技与社会 (Technology & Society)",
+    "sentence": "To reduce human bias, algorithmic sentencing should be introduced in criminal judgments.",
+    "group": "ENA",
+    "source_id": "8",
+    "sentence_chinese": "为了减少人为偏见，应当在刑事判决中引入算法量刑。"
+  },
+  {
+    "item_id": "stance_008",
+    "subject": "科技与社会 (Technology & Society)",
+    "sentence": "AI-created artworks should be copyrighted.",
+    "group": "ENA",
+    "source_id": "9",
+    "sentence_chinese": "AI创造的画作应当拥有版权。"
+  },
+  {
+    "item_id": "stance_009",
+    "subject": "科技与社会 (Technology & Society)",
+    "sentence": "Extensive installation of cameras on public streets is necessary.",
+    "group": "ENA",
+    "source_id": "10",
+    "sentence_chinese": "公共街道大力安装摄像头是必要的。"
+  },
+  {
+    "item_id": "stance_010",
+    "subject": "工作与生活 (Work & Life)",
+    "sentence": "A four-day workweek should become the standard for all full-time employment.",
+    "group": "ENA",
+    "source_id": "11",
+    "sentence_chinese": "四天工作制应当成为所有全职工作的标准。"
+  },
+  {
+    "item_id": "stance_011",
+    "subject": "工作与生活 (Work & Life)",
+    "sentence": "Companies should have the right to monitor all employee communications on company-provided devices.",
+    "group": "ENA",
+    "source_id": "12",
+    "sentence_chinese": "公司应当有权监控员工在公司设备上的所有通讯。"
+  },
+  {
+    "item_id": "stance_012",
+    "subject": "工作与生活 (Work & Life)",
+    "sentence": "Unpaid internships should be banned.",
+    "group": "ENA",
+    "source_id": "13",
+    "sentence_chinese": "无薪实习应该被禁止。"
+  },
+  {
+    "item_id": "stance_013",
+    "subject": "工作与生活 (Work & Life)",
+    "sentence": "For jobs where it's feasible, remote work should be a legal right for employees.",
+    "group": "ENA",
+    "source_id": "14",
+    "sentence_chinese": "对于工作性质允许的岗位，远程工作应当成为员工的一项合法权利。"
+  },
+  {
+    "item_id": "stance_014",
+    "subject": "工作与生活 (Work & Life)",
+    "sentence": "Tipping in the restaurant industry should be abolished and replaced with higher, more stable wages for service staff.",
+    "group": "ENA",
+    "source_id": "15",
+    "sentence_chinese": "餐饮业的小费制度应当被废除，代之以更高、更稳定的服务人员工资。"
+  },
+  {
+    "item_id": "stance_015",
+    "subject": "环境与可持续发展 (Environment & Sustainability)",
+    "sentence": "Enterprises should be taxed for their carbon emissions.",
+    "group": "ENA",
+    "source_id": "16",
+    "sentence_chinese": "应当为企业的碳排放征税"
+  },
+  {
+    "item_id": "stance_016",
+    "subject": "环境与可持续发展 (Environment & Sustainability)",
+    "sentence": "A heavy tax should be imposed on \"fast fashion\" products to discourage overconsumption.",
+    "group": "ENA",
+    "source_id": "17",
+    "sentence_chinese": "应当对“快时尚”产品征收重税，以抑制过度消费。"
+  },
+  {
+    "item_id": "stance_017",
+    "subject": "环境与可持续发展 (Environment & Sustainability)",
+    "sentence": "Strict regulations should be implemented to limit urban sprawl and protect natural landscapes.",
+    "group": "ENA",
+    "source_id": "18",
+    "sentence_chinese": "应实施严格的法规来限制城市无序扩张，以保护自然景观。"
+  },
+  {
+    "item_id": "stance_018",
+    "subject": "法律、政府与经济 (Law, Government & Economics)",
+    "sentence": "Property tax should be fully levied in China.",
+    "group": "ENA",
+    "source_id": "19",
+    "sentence_chinese": "中国应当全面征收房产税。"
+  },
+  {
+    "item_id": "stance_019",
+    "subject": "法律、政府与经济 (Law, Government & Economics)",
+    "sentence": "All eligible citizens should be mandated to vote in national elections.",
+    "group": "ENA",
+    "source_id": "20",
+    "sentence_chinese": "所有符合资格的公民都应被强制要求在全国性选举中投票。"
+  },
+  {
+    "item_id": "stance_020",
+    "subject": "法律、政府与经济 (Law, Government & Economics)",
+    "sentence": "All forms of online sports gambling should be legalized.",
+    "group": "ENA",
+    "source_id": "21",
+    "sentence_chinese": "所有形式的在线体育博彩都应合法化。"
+  },
+  {
+    "item_id": "stance_021",
+    "subject": "法律、政府与经济 (Law, Government & Economics)",
+    "sentence": "Referendums turn politics into entertainment.",
+    "group": "ENA",
+    "source_id": "22",
+    "sentence_chinese": "全民投票会使政治娱乐化。"
+  },
+  {
+    "item_id": "stance_022",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "The flat-earth theory is correct, the Earth we stand on is actually flat.",
+    "group": "ENA",
+    "source_id": "23",
+    "sentence_chinese": "地平论是正确的，我们脚踩的地球实际上是一个平面。"
+  },
+  {
+    "item_id": "stance_023",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "A person’s personality and fate are determined by their zodiac sign.",
+    "group": "ENA",
+    "source_id": "24",
+    "sentence_chinese": "一个人的性格和命运由其星座决定。"
+  },
+  {
+    "item_id": "stance_024",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "Stargates or wormholes allow travel across time and space",
+    "group": "ENA",
+    "source_id": "25",
+    "sentence_chinese": "星门或虫洞可以穿越时空。"
+  },
+  {
+    "item_id": "stance_025",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "Prophecies and ancient texts hint at the existence of time travelers in history",
+    "group": "ENA",
+    "source_id": "26",
+    "sentence_chinese": "预言和古代文献暗示历史上存在时间旅行者。"
+  },
+  {
+    "item_id": "stance_026",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "Aliens have visited Earth.",
+    "group": "ENA",
+    "source_id": "27",
+    "sentence_chinese": "外星人已经造访过地球。"
+  },
+  {
+    "item_id": "stance_027",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "The U.S. government deliberately facilitated the Pearl Harbor attack.",
+    "group": "ENA",
+    "source_id": "28",
+    "sentence_chinese": "美国政府有意推动了珍珠港事件。"
+  },
+  {
+    "item_id": "stance_028",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "The number 8 (or other lucky numbers) brings wealth and prosperity",
+    "group": "ENA",
+    "source_id": "29",
+    "sentence_chinese": "数字8（或其他“吉利数字”）能带来财富和好运。"
+  },
+  {
+    "item_id": "stance_029",
+    "subject": "阴谋论与伪科学（Conspiracies & Pseudoscience）",
+    "sentence": "Ordinary people can achieve immortality through cultivation.",
+    "group": "ENA",
+    "source_id": "30",
+    "sentence_chinese": "普通人可以通过修炼以成仙。"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "analysis": "Subjective Preference regression",
+  "input_root": "data/processed/subjective_preference",
+  "output_dir": "results/summaries/subjective_preference",
+  "models": ["qwen25_3b", "qwen25_7b", "qwen25_14b", "qwen25_32b", "qwen25_72b", "llama3_8b", "mistral_7b", "gemma2_9b"],
+  "primary_score": "full-sequence candidate log-probability margin",
+  "robustness_score": "first-token candidate logit difference",
+  "alpha_grid": [-1, -0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1],
+  "z_alpha_definition": "alpha_norm centered and divided by the population SD of the fixed 11-level grid (sqrt(mean((alpha - mean(alpha))^2)))",
+  "semantic_orientation": {
+    "valenced": "positive minus negative",
+    "neutral": "ASCII case-insensitive alphabetically earlier minus later",
+    "scope": "semantic components and final-input-token AB/BA projection deltas; position components are unchanged"
+  },
+  "n_permutations": 5000,
+  "n_bootstrap": 5000,
+  "seed": 20260810,
+  "prompt_template": "XXXXXXXXXXXXXXXXXXXXXX, {option1} or {option2}? Please answer only with {option1} or {option2}.",
+  "inference_unit": "lexical pair within each model; models analyzed separately",
+  "p_value_reporting": "Unadjusted model-specific p values are primary; Holm-adjusted columns are retained as a cross-model sensitivity summary"
+}

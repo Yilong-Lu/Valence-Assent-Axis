@@ -1,0 +1,4 @@
+"model_name","condition","condition_label","n_items","estimate","item_slope_sd","se","df","ci_low","ci_high","t_ratio","p_value","standardized_effect_dz","inference_note"
+"qwen25_14b","direct_numeric","Direct Numeric",150,-0.00272727272727267,0.0334021328561342,0.00272727272727273,149,-0.00811639957551591,0.00266185412097056,-0.999999999999981,0.318931744641447,-0.081649658092771,"One-sample test of item-level accuracy slopes"
+"qwen25_14b","verification_true","True Statement",150,0.641818181818182,0.0566993877115485,0.00462948562071749,149,0.632670257225721,0.650966106410642,138.63703970609,2.13197125148376e-159,11.3196668909964,"One-sample test of item-level accuracy slopes"
+"qwen25_14b","verification_false","False Statement",150,-0.470606060606061,0.189447663724474,0.0154683369695779,149,-0.501171698294883,-0.440040422917238,-30.4238304047564,8.33241491174562e-66,-2.48409535042086,"One-sample test of item-level accuracy slopes"

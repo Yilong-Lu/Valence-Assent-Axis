@@ -1,0 +1,107 @@
+panel,metric,condition,alpha_norm,mean,ci_low,ci_high,n_models,endpoint,model_name,model_mean,mean_across_models
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,-1.0,-4.450547521511714,-7.490944763839246,-2.10052712659041,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,-0.8,-2.864729189177354,-4.777406682496269,-1.3144576150178904,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,-0.6,-1.7616262571016943,-2.953029614758988,-0.781876837293307,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,-0.4,-1.069487471878528,-2.025384522346158,-0.3665007827778652,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,-0.2,-0.4708128445347144,-0.9875096825882784,-0.1091647669499112,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,0.0,0.0,0.0,0.0,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,0.2,0.0266230410337442,-0.2243334720532104,0.2921734793658048,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,0.4,-0.3179697293043131,-0.9556172120571138,0.2793185577789958,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,0.6,-1.002471261421839,-2.070380951109032,-0.0119554782013094,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,0.8,-2.1913964975873617,-3.927597483776508,-0.5269228485226627,8,,,,
+A. Direct numeric computation,numeric_correct_margin_delta,direct_numeric,1.0,-4.168504451513289,-6.97635631559789,-1.4561385712126933,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,-1.0,-12.054007137517134,-18.005725247174503,-6.872633123221502,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,-0.8,-11.568749105532964,-17.05093340555082,-6.8192066503415605,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,-0.6,-10.425135211845236,-15.056632475532588,-6.5663428765262255,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,-0.4,-8.279971284468967,-11.473746188069384,-5.633533309236169,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,-0.2,-4.666365988453229,-6.177268937031428,-3.2364496020476023,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,0.0,0.0,0.0,0.0,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,0.2,5.661203120549519,3.825001226608952,7.541068488188083,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,0.4,10.45776778916518,6.501873223071296,14.673511687060191,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,0.6,13.294471758306027,7.981805360275011,19.1203426372682,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,0.8,14.552427454590797,8.879614521866042,20.71728077699741,8,,,,
+B. Verification assent,assent_margin_delta,verification_true,1.0,14.981960195600983,9.060064345697562,21.216860652213292,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,-1.0,-4.672561607857546,-6.1791908546711,-3.2937448433215426,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,-0.8,-5.051157586375872,-6.427123558240633,-3.7689918881431215,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,-0.6,-5.316176255444685,-6.562789163996776,-3.97736545642217,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,-0.4,-4.90361054132382,-6.128391779661179,-3.597385228025417,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,-0.2,-3.2040814632177352,-4.031414700920383,-2.307166347796718,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,0.0,0.0,0.0,0.0,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,0.2,5.164453564385573,3.794914729875823,6.635368100869157,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,0.4,11.586637357374034,7.825635690587262,15.39075084378322,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,0.6,17.03760035465161,10.787619819045068,22.90522960474094,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,0.8,20.05978193451961,13.085500305814048,26.825560028741755,8,,,,
+B. Verification assent,assent_margin_delta,verification_false,1.0,21.55824111501376,13.93357901019603,28.894189580827938,8,,,,
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,gemma2_9b,0.6031234579014058,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,llama3_8b,6.594499537222315,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,mistral_7b,-0.3311573888677538,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,qwen25_14b,-1.1706132643150562,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,qwen25_32b,-0.1772593318332322,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,qwen25_3b,-2.810495579784567,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,qwen25_72b,-1.2106101159977194,0.380976476095843
+C. Item-level steering slopes,numeric_correct_margin_slope,,,,-1.165977478904819,2.4154544665280624,8,direct_numeric_correct_margin,qwen25_7b,1.5503244944413512,0.380976476095843
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,gemma2_9b,6.337325026555496,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,llama3_8b,11.556003836501732,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,mistral_7b,6.649007457386365,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,qwen25_14b,24.525465494213687,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,qwen25_32b,23.062630427425564,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,qwen25_3b,16.594097608978103,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,qwen25_72b,18.858568429441167,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.519628016713895,20.90958102314468,8,verification_true_assent_margin,qwen25_7b,22.826505745974465,16.301200503309573
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,gemma2_9b,7.949363169959098,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,llama3_8b,10.29040272607948,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,mistral_7b,6.541342625473487,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,qwen25_14b,20.967684228348016,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,qwen25_32b,20.98297622243564,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,qwen25_3b,16.570313205899616,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,qwen25_72b,18.329834778381123,15.454915106964837
+C. Item-level steering slopes,assent_margin_slope,,,,11.41314888105079,19.274415831024,8,verification_false_assent_margin,qwen25_7b,22.007403899142243,15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,gemma2_9b,6.337325026555496,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,llama3_8b,11.556003836501732,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,mistral_7b,6.649007457386365,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,qwen25_14b,24.525465494213687,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,qwen25_32b,23.062630427425564,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,qwen25_3b,16.594097608978103,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,qwen25_72b,18.858568429441167,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,11.479987909030736,20.85186354738857,8,verification_true_correctness_margin,qwen25_7b,22.826505745974465,16.301200503309573
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,gemma2_9b,-7.949363169959098,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,llama3_8b,-10.29040272607948,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,mistral_7b,-6.541342625473487,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,qwen25_14b,-20.967684228348016,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,qwen25_32b,-20.98297622243564,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,qwen25_3b,-16.570313205899616,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,qwen25_72b,-18.329834778381123,-15.454915106964837
+C. Item-level steering slopes,verification_correct_margin_slope,,,,-19.34273024291794,-11.239479446262576,8,verification_false_correctness_margin,qwen25_7b,-22.007403899142243,-15.454915106964837
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,-1.0,0.9908333333333332,0.9741666666666666,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,-0.8,0.9958333333333332,0.9908125,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,-0.6,0.9991666666666666,0.9975,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,-0.4,0.9991666666666666,0.9975,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,-0.2,0.9991666666666666,0.9975,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,0.0,0.9983333333333332,0.995,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,0.2,0.9983333333333332,0.995,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,0.4,0.9975,0.9941666666666666,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,0.6,0.9975,0.9941666666666666,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,0.8,0.995,0.9891666666666667,0.9991666666666666,8,,,,
+D. Accuracy sanity check,candidate_accuracy,direct_numeric,1.0,0.9933333333333334,0.985,0.9991666666666666,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,-1.0,0.1899999999999999,0.0,0.4424999999999999,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,-0.8,0.1925,0.0058333333333333,0.44,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,-0.6,0.1608333333333333,0.0299583333333333,0.335041666666666,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,-0.4,0.2016666666666666,0.0608333333333333,0.3708333333333333,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,-0.2,0.3033333333333333,0.1233333333333333,0.4958333333333333,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,0.0,0.4916666666666667,0.2883333333333333,0.7083333333333333,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,0.2,0.6933333333333334,0.4833333333333333,0.8708333333333333,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,0.4,0.8791666666666667,0.7408333333333332,0.97,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,0.6,0.9883333333333332,0.9766666666666668,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,0.8,0.9975,0.9925,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_true,1.0,1.0,1.0,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,-1.0,0.8558333333333333,0.6158333333333333,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,-0.8,0.865,0.6633333333333333,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,-0.6,0.9108333333333334,0.8,1.0,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,-0.4,0.9175,0.8083333333333333,0.9983333333333332,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,-0.2,0.8725,0.7025,0.9925,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,0.0,0.7833333333333333,0.5883333333333334,0.9591874999999996,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,0.2,0.6599999999999999,0.4558333333333333,0.8416666666666667,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,0.4,0.4775,0.2991666666666666,0.6441666666666666,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,0.6,0.175,0.0674999999999999,0.2866666666666666,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,0.8,0.0433333333333333,0.0041666666666666,0.0999999999999999,8,,,,
+D. Accuracy sanity check,candidate_accuracy,verification_false,1.0,0.0158333333333333,0.0,0.0374999999999999,8,,,,

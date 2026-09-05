@@ -1,0 +1,182 @@
+[
+  {
+    "item_id": "alphabetical_000",
+    "difficulty": "different_initial",
+    "word_a": "apple",
+    "word_b": "banana"
+  },
+  {
+    "item_id": "alphabetical_001",
+    "difficulty": "different_initial",
+    "word_a": "cat",
+    "word_b": "dog"
+  },
+  {
+    "item_id": "alphabetical_002",
+    "difficulty": "different_initial",
+    "word_a": "fish",
+    "word_b": "goat"
+  },
+  {
+    "item_id": "alphabetical_003",
+    "difficulty": "different_initial",
+    "word_a": "house",
+    "word_b": "ice"
+  },
+  {
+    "item_id": "alphabetical_004",
+    "difficulty": "different_initial",
+    "word_a": "jungle",
+    "word_b": "kite"
+  },
+  {
+    "item_id": "alphabetical_005",
+    "difficulty": "different_initial",
+    "word_a": "lion",
+    "word_b": "monkey"
+  },
+  {
+    "item_id": "alphabetical_006",
+    "difficulty": "different_initial",
+    "word_a": "notebook",
+    "word_b": "orange"
+  },
+  {
+    "item_id": "alphabetical_007",
+    "difficulty": "different_initial",
+    "word_a": "pencil",
+    "word_b": "queen"
+  },
+  {
+    "item_id": "alphabetical_008",
+    "difficulty": "different_initial",
+    "word_a": "rabbit",
+    "word_b": "sun"
+  },
+  {
+    "item_id": "alphabetical_009",
+    "difficulty": "different_initial",
+    "word_a": "tree",
+    "word_b": "umbrella"
+  },
+  {
+    "item_id": "alphabetical_010",
+    "difficulty": "different_initial",
+    "word_a": "violin",
+    "word_b": "water"
+  },
+  {
+    "item_id": "alphabetical_011",
+    "difficulty": "different_initial",
+    "word_a": "xray",
+    "word_b": "yarn"
+  },
+  {
+    "item_id": "alphabetical_012",
+    "difficulty": "different_initial",
+    "word_a": "book",
+    "word_b": "frog"
+  },
+  {
+    "item_id": "alphabetical_013",
+    "difficulty": "different_initial",
+    "word_a": "egg",
+    "word_b": "jam"
+  },
+  {
+    "item_id": "alphabetical_014",
+    "difficulty": "different_initial",
+    "word_a": "grape",
+    "word_b": "lamp"
+  },
+  {
+    "item_id": "alphabetical_015",
+    "difficulty": "same_initial",
+    "word_a": "dark",
+    "word_b": "door"
+  },
+  {
+    "item_id": "alphabetical_016",
+    "difficulty": "same_initial",
+    "word_a": "hard",
+    "word_b": "head"
+  },
+  {
+    "item_id": "alphabetical_017",
+    "difficulty": "same_initial",
+    "word_a": "game",
+    "word_b": "gold"
+  },
+  {
+    "item_id": "alphabetical_018",
+    "difficulty": "same_initial",
+    "word_a": "name",
+    "word_b": "none"
+  },
+  {
+    "item_id": "alphabetical_019",
+    "difficulty": "same_initial",
+    "word_a": "near",
+    "word_b": "note"
+  },
+  {
+    "item_id": "alphabetical_020",
+    "difficulty": "same_initial",
+    "word_a": "park",
+    "word_b": "play"
+  },
+  {
+    "item_id": "alphabetical_021",
+    "difficulty": "same_initial",
+    "word_a": "life",
+    "word_b": "look"
+  },
+  {
+    "item_id": "alphabetical_022",
+    "difficulty": "same_initial",
+    "word_a": "talk",
+    "word_b": "team"
+  },
+  {
+    "item_id": "alphabetical_023",
+    "difficulty": "same_initial",
+    "word_a": "unit",
+    "word_b": "user"
+  },
+  {
+    "item_id": "alphabetical_024",
+    "difficulty": "same_initial",
+    "word_a": "yard",
+    "word_b": "year"
+  },
+  {
+    "item_id": "alphabetical_025",
+    "difficulty": "same_initial",
+    "word_a": "call",
+    "word_b": "cold"
+  },
+  {
+    "item_id": "alphabetical_026",
+    "difficulty": "same_initial",
+    "word_a": "face",
+    "word_b": "feel"
+  },
+  {
+    "item_id": "alphabetical_027",
+    "difficulty": "same_initial",
+    "word_a": "game",
+    "word_b": "give"
+  },
+  {
+    "item_id": "alphabetical_028",
+    "difficulty": "same_initial",
+    "word_a": "join",
+    "word_b": "jump"
+  },
+  {
+    "item_id": "alphabetical_029",
+    "difficulty": "same_initial",
+    "word_a": "angle",
+    "word_b": "apple"
+  }
+]

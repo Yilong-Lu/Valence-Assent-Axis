@@ -1,0 +1,50 @@
+\documentclass[border=0pt]{standalone}
+\usepackage{graphicx}
+\usepackage{overpic}
+\usepackage{amsmath}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{helvet}
+
+\begin{document}
+% Match the manuscript's native text width so the overlaid 4 pt examples are
+% not scaled a second time when the completed figure is included in the paper.
+\begin{minipage}{372pt}
+\begin{overpic}[width=\linewidth]{figure4_base.pdf}
+  \put(69,45.5){
+    \parbox[t]{0.3\linewidth}{
+      \sffamily\fontsize{4}{2}\selectfont
+      \textbf{Procedural Reasoning: Coherent Hallucination} \\
+      \textit{'ice' comes first in alphabetical order compare with the word 'house'. Is it right or wrong?}
+      \vspace{0.8em}
+
+      \textbf{Baseline} ($\alpha_{\text{aligned}} = 0$) \\
+      \textbf{Think:} The first letter of 'ice' is ... Since 'i' comes after 'h' in the alphabet, 'ice' comes after 'house'. \\
+      \textbf{Answer:} \textcolor{ForestGreen!80!black}{Wrong}
+      \vspace{1em}
+
+      \textbf{Conflicting Pressure} ($\alpha_{\text{aligned}} < 0 \rightarrow$ ``Right'') \\
+      \textbf{Think:} The words ... In the English alphabet, \textcolor{red!90!black}{'i' comes before 'h'.} Therefore, 'ice' should come before 'house'. \\
+      \textbf{Answer:} \textcolor{red!90!black}{Right}
+    }
+  }
+
+  \put(69,21.5){
+    \parbox[t]{0.3\linewidth}{
+      \sffamily\fontsize{4}{2}\selectfont
+      \textbf{Factual Reasoning: Selective Evidence} \\
+      \textit{Q: Are toads frogs?}
+      \vspace{0.4em}
+
+      \textbf{Conflicting Pressure} ($\alpha_{\text{aligned}} < 0 \rightarrow$ ``No'') \\
+      \textbf{Think:} Toads and frogs are ... typically \textcolor{red!90!black}{distinguished from each other based on several characteristics} such as skin texture, habitat preference, and behavior. Toads generally have dry, rough skin and spend most of their time on land, while frogs ... \textcolor{red!90!black}{Given these distinctions, it is accurate to say that toads are not considered frogs}.\\
+      \textbf{Answer:} \textcolor{red!90!black}{No}
+      \vspace{0.6em}
+
+      \textbf{Aligning Pressure} ($\alpha_{\text{aligned}} > 0 \rightarrow$ ``Yes'') \\
+      \textbf{Think:} Toads and frogs belong to the same family ... the question is asking if toads are frogs, which implies if toads can be classified under the term 'frogs'. \textcolor{ForestGreen!80!black}{Since toads are a subset of frogs}, the answer should be Yes.\\
+      \textbf{Answer:} \textcolor{ForestGreen!80!black}{Yes}
+    }
+  }
+\end{overpic}
+\end{minipage}
+\end{document}

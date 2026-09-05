@@ -1,0 +1,9 @@
+"model_name","target_layer","input_file","n_items","n_conditions","n_item_condition_rows"
+"qwen25_3b",26,"data/processed/arithmetic_answering_verification/item_slopes/qwen25_3b.csv",150,3,450
+"qwen25_7b",18,"data/processed/arithmetic_answering_verification/item_slopes/qwen25_7b.csv",150,3,450
+"llama3_8b",13,"data/processed/arithmetic_answering_verification/item_slopes/llama3_8b.csv",150,3,450
+"mistral_7b",14,"data/processed/arithmetic_answering_verification/item_slopes/mistral_7b.csv",150,3,450
+"gemma2_9b",22,"data/processed/arithmetic_answering_verification/item_slopes/gemma2_9b.csv",150,3,450
+"qwen25_14b",28,"data/processed/arithmetic_answering_verification/item_slopes/qwen25_14b.csv",150,3,450
+"qwen25_32b",43,"data/processed/arithmetic_answering_verification/item_slopes/qwen25_32b.csv",150,3,450
+"qwen25_72b",52,"data/processed/arithmetic_answering_verification/item_slopes/qwen25_72b.csv",150,3,450

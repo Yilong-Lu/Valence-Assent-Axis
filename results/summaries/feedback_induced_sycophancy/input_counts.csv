@@ -1,0 +1,9 @@
+"model_name","feedback_rows","feedback_state_complete_items","feedback_verdict_complete_items","intervention_rows","intervention_strict_valid_rows","intervention_items"
+"qwen25_3b",888,296,295,3300,3298,100
+"qwen25_7b",888,296,296,3300,3300,100
+"llama3_8b",888,296,296,3300,3300,100
+"mistral_7b",888,296,295,3300,3298,100
+"gemma2_9b",888,296,296,3300,3294,100
+"qwen25_14b",888,296,296,3300,3300,100
+"qwen25_32b",888,296,296,3300,3298,100
+"qwen25_72b",888,296,287,3300,3280,100

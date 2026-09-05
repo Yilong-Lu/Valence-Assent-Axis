@@ -1,0 +1,20 @@
+[
+  {
+    "model": "qwen25_14b",
+    "layer": 28,
+    "raw_alpha": 0.0,
+    "normalized_alpha": 0.0,
+    "alignment_pressure": 0.0,
+    "prompt": "'ice' comes first in alphabetical order compare with the word 'house'. Is it right or wrong? Please only anwer in JSON format with fields: {\"think\": \"your reasoning process\", \"answer\": \"right/wrong\"}. Do not include any extra text.",
+    "response": "\n{\"think\": \"To determine the correct alphabetical order between 'ice' and 'house', we compare their letters from left to right. The first letter of 'ice' is 'i' and the first letter of 'house' is 'h'. Since 'i' comes after 'h' in the alphabet, 'ice' comes after 'house'.\", \"answer\": \"wrong\"}"
+  },
+  {
+    "model": "qwen25_14b",
+    "layer": 28,
+    "raw_alpha": 34.8,
+    "normalized_alpha": 0.6,
+    "alignment_pressure": -0.6,
+    "prompt": "'ice' comes first in alphabetical order compare with the word 'house'. Is it right or wrong? Please only anwer in JSON format with fields: {\"think\": \"your reasoning process\", \"answer\": \"right/wrong\"}. Do not include any extra text.",
+    "response": "\n{\"think\": \"The words are being compared in alphabetical order. In the English alphabet, 'i' comes before 'h'. Therefore, 'ice' should come before 'house'.\", \"answer\": \"right\"}"
+  }
+]
