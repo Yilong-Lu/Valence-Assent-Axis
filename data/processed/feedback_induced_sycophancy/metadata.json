@@ -1,0 +1,46 @@
+{
+  "models": [
+    "qwen25_3b",
+    "qwen25_7b",
+    "llama3_8b",
+    "mistral_7b",
+    "gemma2_9b",
+    "qwen25_14b",
+    "qwen25_32b",
+    "qwen25_72b"
+  ],
+  "conditions": [
+    "baseline",
+    "user_like",
+    "user_dislike"
+  ],
+  "tables": {
+    "feedback_effect": {
+      "path": "data/processed/feedback_induced_sycophancy/feedback_effect.csv",
+      "rows": 7104,
+      "items_per_model": 296,
+      "alpha_grid": [
+        0.0
+      ]
+    },
+    "intervention": {
+      "path": "data/processed/feedback_induced_sycophancy/intervention.csv",
+      "rows": 26400,
+      "items_per_model": 100,
+      "alpha_grid": [
+        -1.0,
+        -0.8,
+        -0.6,
+        -0.4,
+        -0.2,
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ]
+    }
+  },
+  "full_generated_text": "external result archive"
+}

@@ -1,0 +1,69 @@
+schema_version: 1
+main_figures:
+  figure1:
+    manuscript_image: figures/figure1.jpg
+    build_scope: conceptual figure; no numerical source data
+  figure2:
+    script: analysis/figures/figure2.py
+    notebook: notebooks/main_figures/figure2.ipynb
+    manuscript_pdf: figures/main/figure2.pdf
+    build_scope: complete_quantitative_figure
+  figure3:
+    script: analysis/figures/figure3.py
+    notebook: notebooks/main_figures/figure3.ipynb
+    manuscript_pdf: figures/main/figure3.pdf
+    build_scope: complete_quantitative_figure
+  figure4:
+    script: analysis/figures/figure4.py
+    notebook: notebooks/main_figures/figure4.ipynb
+    manuscript_pdf: figures/main/figure4.pdf
+    editable_composite: figures/source/figure4_complete.tex
+    composite_base: figures/source/figure4_base.pdf
+    build_scope: quantitative_panels; final examples arranged in vector editor
+  figure5:
+    script: analysis/figures/figure5.py
+    notebook: notebooks/main_figures/figure5.ipynb
+    manuscript_pdf: figures/main/figure5.pdf
+    editable_composite: figures/main/figure5_editable.drawio.pdf
+    build_scope: quantitative_panels; final example and task schematic arranged in draw.io
+  figure6:
+    script: analysis/figures/figure6.py
+    notebook: notebooks/main_figures/figure6.ipynb
+    manuscript_pdf: figures/main/figure6.pdf
+    build_scope: complete_quantitative_figure
+supplementary_figures:
+  feedback_induced_sycophancy:
+    script: analysis/figures/feedback_sycophancy.py
+    notebook: notebooks/supplementary_figures/feedback_sycophancy.ipynb
+    manuscript_pdf: figures/supplementary/supplement_feedback_sycophancy.pdf
+  decoding_temperature:
+    script: analysis/figures/decoding_robustness.py
+    notebook: notebooks/supplementary_figures/decoding_robustness.ipynb
+    manuscript_pdf: figures/supplementary/supplement_decoding_temperature.pdf
+  submitted_layer_selection:
+    manuscript_pdf: figures/supplementary/submitted_layer_selection.pdf
+    source_data: data/source_data/figure6.csv
+    build_scope: original figure; corrected layer profiles are plotted in Figure 6a
+  submitted_qwen14_pca:
+    manuscript_pdf: figures/supplementary/submitted_qwen14_pca.pdf
+    source_data: data/source_data/figure2_pca_qwen25_14b.json
+    build_scope: original figure; selected-layer PCA is also plotted in Figure 2b-c
+  submitted_cross_domain_control:
+    manuscript_pdf: figures/supplementary/submitted_cross_domain_control.pdf
+    source_data: data/source_data/supplement_cross_domain_intervention.csv
+    build_scope: original layout with reproducible source table
+  submitted_tsne_exploratory:
+    manuscript_pdf: figures/supplementary/submitted_tsne_exploratory.pdf
+    build_scope: exploratory provenance figure; numerical Source Data are unavailable
+  submitted_alphabetical_order:
+    manuscript_pdf: figures/supplementary/submitted_alphabetical_order.pdf
+    source_data: data/source_data/supplement_alphabetical_order.csv
+    build_scope: original layout with reproducible source table
+  submitted_factual_judgment:
+    manuscript_pdf: figures/supplementary/submitted_factual_judgment.pdf
+    source_data: data/source_data/supplement_factual_judgment.csv
+    build_scope: original layout with reproducible source table
+  submitted_stance_taking:
+    manuscript_pdf: figures/supplementary/submitted_stance_taking.pdf
+    source_data: data/source_data/supplement_stance_taking.csv
+    build_scope: original layout with reproducible source table

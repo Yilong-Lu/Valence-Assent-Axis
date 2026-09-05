@@ -1,0 +1,19 @@
+schema_version: 1
+valence:
+  display_name: Valence Axis Extraction
+  prompt: valence_axis_word_classification_v1
+  stimulus_file: data/stimuli/valence/word_pairs.json
+single_letter_order:
+  display_name: Single-Letter Order Task
+  stimulus_file: data/stimuli/single_letter_order/letter_pairs.json
+  answer_label_conditions:
+    right_wrong:
+      prompt: single_letter_order_right_wrong_v1
+      true_label: right
+      false_label: wrong
+      protocol: r1_original_right_wrong_v1
+    true_false:
+      prompt: single_letter_order_true_false_v2
+      true_label: "true"
+      false_label: "false"
+      protocol: r1_matched_answer_labels_v2

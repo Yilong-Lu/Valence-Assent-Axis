@@ -1,0 +1,1786 @@
+{
+  "schema_version": 1,
+  "upstream_repository": "https://github.com/meg-tong/sycophancy-eval",
+  "upstream_commit": "9a1694221e3639887138f61deae344335eca6752",
+  "source_file": "datasets/feedback.jsonl",
+  "deduplication": "first occurrence of each base.text where base.dataset == arguments",
+  "items": [
+    {
+      "item_id": "argument_001",
+      "upstream_unique_index": 171,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_002",
+      "upstream_unique_index": 222,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_003",
+      "upstream_unique_index": 275,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_004",
+      "upstream_unique_index": 3,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_005",
+      "upstream_unique_index": 241,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_006",
+      "upstream_unique_index": 63,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_007",
+      "upstream_unique_index": 190,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_008",
+      "upstream_unique_index": 211,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_009",
+      "upstream_unique_index": 274,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_010",
+      "upstream_unique_index": 252,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_011",
+      "upstream_unique_index": 199,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_012",
+      "upstream_unique_index": 115,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_013",
+      "upstream_unique_index": 162,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_014",
+      "upstream_unique_index": 161,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_015",
+      "upstream_unique_index": 91,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_016",
+      "upstream_unique_index": 98,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_017",
+      "upstream_unique_index": 35,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_018",
+      "upstream_unique_index": 143,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_019",
+      "upstream_unique_index": 117,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_020",
+      "upstream_unique_index": 27,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_021",
+      "upstream_unique_index": 32,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_022",
+      "upstream_unique_index": 229,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_023",
+      "upstream_unique_index": 75,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_024",
+      "upstream_unique_index": 288,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_025",
+      "upstream_unique_index": 188,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_026",
+      "upstream_unique_index": 126,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_027",
+      "upstream_unique_index": 219,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_028",
+      "upstream_unique_index": 0,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_029",
+      "upstream_unique_index": 160,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_030",
+      "upstream_unique_index": 114,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_031",
+      "upstream_unique_index": 200,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_032",
+      "upstream_unique_index": 175,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_033",
+      "upstream_unique_index": 30,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_034",
+      "upstream_unique_index": 281,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_035",
+      "upstream_unique_index": 182,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_036",
+      "upstream_unique_index": 249,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_037",
+      "upstream_unique_index": 157,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_038",
+      "upstream_unique_index": 81,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_039",
+      "upstream_unique_index": 77,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_040",
+      "upstream_unique_index": 258,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_041",
+      "upstream_unique_index": 137,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_042",
+      "upstream_unique_index": 13,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_043",
+      "upstream_unique_index": 5,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_044",
+      "upstream_unique_index": 259,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_045",
+      "upstream_unique_index": 153,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_046",
+      "upstream_unique_index": 34,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_047",
+      "upstream_unique_index": 10,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_048",
+      "upstream_unique_index": 294,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_049",
+      "upstream_unique_index": 12,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_050",
+      "upstream_unique_index": 68,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_051",
+      "upstream_unique_index": 291,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_052",
+      "upstream_unique_index": 90,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_053",
+      "upstream_unique_index": 289,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_054",
+      "upstream_unique_index": 61,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_055",
+      "upstream_unique_index": 23,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_056",
+      "upstream_unique_index": 217,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_057",
+      "upstream_unique_index": 48,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_058",
+      "upstream_unique_index": 204,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_059",
+      "upstream_unique_index": 123,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_060",
+      "upstream_unique_index": 28,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_061",
+      "upstream_unique_index": 31,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_062",
+      "upstream_unique_index": 69,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_063",
+      "upstream_unique_index": 279,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_064",
+      "upstream_unique_index": 237,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_065",
+      "upstream_unique_index": 202,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_066",
+      "upstream_unique_index": 283,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_067",
+      "upstream_unique_index": 74,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_068",
+      "upstream_unique_index": 176,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_069",
+      "upstream_unique_index": 21,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_070",
+      "upstream_unique_index": 158,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_071",
+      "upstream_unique_index": 66,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_072",
+      "upstream_unique_index": 282,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_073",
+      "upstream_unique_index": 76,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_074",
+      "upstream_unique_index": 270,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_075",
+      "upstream_unique_index": 94,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_076",
+      "upstream_unique_index": 212,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_077",
+      "upstream_unique_index": 238,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_078",
+      "upstream_unique_index": 20,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_079",
+      "upstream_unique_index": 268,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_080",
+      "upstream_unique_index": 181,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_081",
+      "upstream_unique_index": 244,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_082",
+      "upstream_unique_index": 136,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_083",
+      "upstream_unique_index": 101,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_084",
+      "upstream_unique_index": 264,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_085",
+      "upstream_unique_index": 178,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_086",
+      "upstream_unique_index": 242,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_087",
+      "upstream_unique_index": 37,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_088",
+      "upstream_unique_index": 110,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_089",
+      "upstream_unique_index": 45,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_090",
+      "upstream_unique_index": 9,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_091",
+      "upstream_unique_index": 15,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_092",
+      "upstream_unique_index": 60,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_093",
+      "upstream_unique_index": 54,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_094",
+      "upstream_unique_index": 179,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_095",
+      "upstream_unique_index": 83,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_096",
+      "upstream_unique_index": 263,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_097",
+      "upstream_unique_index": 271,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_098",
+      "upstream_unique_index": 250,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_099",
+      "upstream_unique_index": 88,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_100",
+      "upstream_unique_index": 261,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_101",
+      "upstream_unique_index": 227,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_102",
+      "upstream_unique_index": 6,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_103",
+      "upstream_unique_index": 87,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_104",
+      "upstream_unique_index": 226,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_105",
+      "upstream_unique_index": 116,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_106",
+      "upstream_unique_index": 14,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_107",
+      "upstream_unique_index": 185,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_108",
+      "upstream_unique_index": 106,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_109",
+      "upstream_unique_index": 113,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_110",
+      "upstream_unique_index": 122,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_111",
+      "upstream_unique_index": 65,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_112",
+      "upstream_unique_index": 215,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_113",
+      "upstream_unique_index": 228,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_114",
+      "upstream_unique_index": 287,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_115",
+      "upstream_unique_index": 79,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_116",
+      "upstream_unique_index": 269,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_117",
+      "upstream_unique_index": 111,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_118",
+      "upstream_unique_index": 245,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_119",
+      "upstream_unique_index": 86,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_120",
+      "upstream_unique_index": 272,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_121",
+      "upstream_unique_index": 57,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_122",
+      "upstream_unique_index": 186,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_123",
+      "upstream_unique_index": 168,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_124",
+      "upstream_unique_index": 152,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_125",
+      "upstream_unique_index": 183,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_126",
+      "upstream_unique_index": 11,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_127",
+      "upstream_unique_index": 17,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_128",
+      "upstream_unique_index": 177,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_129",
+      "upstream_unique_index": 103,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_130",
+      "upstream_unique_index": 285,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_131",
+      "upstream_unique_index": 214,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_132",
+      "upstream_unique_index": 19,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_133",
+      "upstream_unique_index": 144,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_134",
+      "upstream_unique_index": 139,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_135",
+      "upstream_unique_index": 231,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_136",
+      "upstream_unique_index": 273,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_137",
+      "upstream_unique_index": 56,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_138",
+      "upstream_unique_index": 53,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_139",
+      "upstream_unique_index": 104,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_140",
+      "upstream_unique_index": 220,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_141",
+      "upstream_unique_index": 192,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_142",
+      "upstream_unique_index": 142,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_143",
+      "upstream_unique_index": 167,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_144",
+      "upstream_unique_index": 223,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_145",
+      "upstream_unique_index": 84,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_146",
+      "upstream_unique_index": 133,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_147",
+      "upstream_unique_index": 119,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_148",
+      "upstream_unique_index": 121,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_149",
+      "upstream_unique_index": 203,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_150",
+      "upstream_unique_index": 59,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_151",
+      "upstream_unique_index": 277,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_152",
+      "upstream_unique_index": 16,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_153",
+      "upstream_unique_index": 194,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_154",
+      "upstream_unique_index": 163,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_155",
+      "upstream_unique_index": 253,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_156",
+      "upstream_unique_index": 89,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_157",
+      "upstream_unique_index": 2,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_158",
+      "upstream_unique_index": 208,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_159",
+      "upstream_unique_index": 47,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_160",
+      "upstream_unique_index": 135,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_161",
+      "upstream_unique_index": 206,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_162",
+      "upstream_unique_index": 236,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_163",
+      "upstream_unique_index": 213,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_164",
+      "upstream_unique_index": 225,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_165",
+      "upstream_unique_index": 260,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_166",
+      "upstream_unique_index": 151,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_167",
+      "upstream_unique_index": 55,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_168",
+      "upstream_unique_index": 166,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_169",
+      "upstream_unique_index": 248,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_170",
+      "upstream_unique_index": 40,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_171",
+      "upstream_unique_index": 25,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_172",
+      "upstream_unique_index": 51,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_173",
+      "upstream_unique_index": 36,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_174",
+      "upstream_unique_index": 82,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_175",
+      "upstream_unique_index": 72,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_176",
+      "upstream_unique_index": 85,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_177",
+      "upstream_unique_index": 146,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_178",
+      "upstream_unique_index": 278,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_179",
+      "upstream_unique_index": 149,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_180",
+      "upstream_unique_index": 247,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_181",
+      "upstream_unique_index": 138,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_182",
+      "upstream_unique_index": 193,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_183",
+      "upstream_unique_index": 209,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_184",
+      "upstream_unique_index": 216,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_185",
+      "upstream_unique_index": 112,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_186",
+      "upstream_unique_index": 267,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_187",
+      "upstream_unique_index": 205,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_188",
+      "upstream_unique_index": 134,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_189",
+      "upstream_unique_index": 292,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_190",
+      "upstream_unique_index": 196,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_191",
+      "upstream_unique_index": 127,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_192",
+      "upstream_unique_index": 50,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_193",
+      "upstream_unique_index": 92,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_194",
+      "upstream_unique_index": 140,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_195",
+      "upstream_unique_index": 49,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_196",
+      "upstream_unique_index": 284,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_197",
+      "upstream_unique_index": 64,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_198",
+      "upstream_unique_index": 71,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_199",
+      "upstream_unique_index": 197,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_200",
+      "upstream_unique_index": 93,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_201",
+      "upstream_unique_index": 293,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_202",
+      "upstream_unique_index": 150,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_203",
+      "upstream_unique_index": 254,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_204",
+      "upstream_unique_index": 95,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_205",
+      "upstream_unique_index": 218,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_206",
+      "upstream_unique_index": 187,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_207",
+      "upstream_unique_index": 286,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_208",
+      "upstream_unique_index": 169,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_209",
+      "upstream_unique_index": 125,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_210",
+      "upstream_unique_index": 52,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_211",
+      "upstream_unique_index": 201,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_212",
+      "upstream_unique_index": 7,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_213",
+      "upstream_unique_index": 107,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_214",
+      "upstream_unique_index": 8,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_215",
+      "upstream_unique_index": 265,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_216",
+      "upstream_unique_index": 131,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_217",
+      "upstream_unique_index": 118,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_218",
+      "upstream_unique_index": 97,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_219",
+      "upstream_unique_index": 257,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_220",
+      "upstream_unique_index": 207,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_221",
+      "upstream_unique_index": 26,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_222",
+      "upstream_unique_index": 1,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_223",
+      "upstream_unique_index": 29,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_224",
+      "upstream_unique_index": 73,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_225",
+      "upstream_unique_index": 232,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_226",
+      "upstream_unique_index": 120,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_227",
+      "upstream_unique_index": 18,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_228",
+      "upstream_unique_index": 148,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_229",
+      "upstream_unique_index": 108,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_230",
+      "upstream_unique_index": 234,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_231",
+      "upstream_unique_index": 164,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_232",
+      "upstream_unique_index": 156,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_233",
+      "upstream_unique_index": 180,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_234",
+      "upstream_unique_index": 109,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_235",
+      "upstream_unique_index": 243,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_236",
+      "upstream_unique_index": 62,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_237",
+      "upstream_unique_index": 4,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_238",
+      "upstream_unique_index": 132,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_239",
+      "upstream_unique_index": 130,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_240",
+      "upstream_unique_index": 184,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_241",
+      "upstream_unique_index": 96,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_242",
+      "upstream_unique_index": 80,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_243",
+      "upstream_unique_index": 124,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_244",
+      "upstream_unique_index": 22,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_245",
+      "upstream_unique_index": 230,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_246",
+      "upstream_unique_index": 46,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_247",
+      "upstream_unique_index": 240,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_248",
+      "upstream_unique_index": 67,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_249",
+      "upstream_unique_index": 154,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_250",
+      "upstream_unique_index": 70,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_251",
+      "upstream_unique_index": 128,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_252",
+      "upstream_unique_index": 141,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_253",
+      "upstream_unique_index": 221,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_254",
+      "upstream_unique_index": 239,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_255",
+      "upstream_unique_index": 44,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_256",
+      "upstream_unique_index": 42,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_257",
+      "upstream_unique_index": 165,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_258",
+      "upstream_unique_index": 24,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_259",
+      "upstream_unique_index": 43,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_260",
+      "upstream_unique_index": 99,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_261",
+      "upstream_unique_index": 129,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_262",
+      "upstream_unique_index": 145,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_263",
+      "upstream_unique_index": 262,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_264",
+      "upstream_unique_index": 233,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_265",
+      "upstream_unique_index": 105,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_266",
+      "upstream_unique_index": 33,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_267",
+      "upstream_unique_index": 191,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_268",
+      "upstream_unique_index": 189,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_269",
+      "upstream_unique_index": 174,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_270",
+      "upstream_unique_index": 276,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_271",
+      "upstream_unique_index": 266,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_272",
+      "upstream_unique_index": 295,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_273",
+      "upstream_unique_index": 78,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_274",
+      "upstream_unique_index": 246,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_275",
+      "upstream_unique_index": 280,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_276",
+      "upstream_unique_index": 235,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_277",
+      "upstream_unique_index": 41,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_278",
+      "upstream_unique_index": 58,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_279",
+      "upstream_unique_index": 39,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_280",
+      "upstream_unique_index": 155,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_281",
+      "upstream_unique_index": 173,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_282",
+      "upstream_unique_index": 147,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_283",
+      "upstream_unique_index": 251,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_284",
+      "upstream_unique_index": 159,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_285",
+      "upstream_unique_index": 256,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_286",
+      "upstream_unique_index": 224,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_287",
+      "upstream_unique_index": 102,
+      "in_intervention_subset": true,
+      "intervention_split": "holdout"
+    },
+    {
+      "item_id": "argument_288",
+      "upstream_unique_index": 170,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_289",
+      "upstream_unique_index": 210,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_290",
+      "upstream_unique_index": 290,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_291",
+      "upstream_unique_index": 172,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_292",
+      "upstream_unique_index": 100,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_293",
+      "upstream_unique_index": 195,
+      "in_intervention_subset": false,
+      "intervention_split": ""
+    },
+    {
+      "item_id": "argument_294",
+      "upstream_unique_index": 255,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_295",
+      "upstream_unique_index": 198,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    },
+    {
+      "item_id": "argument_296",
+      "upstream_unique_index": 38,
+      "in_intervention_subset": true,
+      "intervention_split": "calibration"
+    }
+  ],
+  "upstream_file_url": "https://raw.githubusercontent.com/meg-tong/sycophancy-eval/9a1694221e3639887138f61deae344335eca6752/datasets/feedback.jsonl"
+}

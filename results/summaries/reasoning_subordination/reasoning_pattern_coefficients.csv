@@ -1,0 +1,10 @@
+"task","term","Estimate","Est.Error","Q2.5","Q97.5"
+"Alphabetical Order: Think-then-Answer","muCoherentHallucination_alignment_pressure_z",-2.4676668417179,0.202343067747875,-2.87394841007058,-2.08420318055765
+"Alphabetical Order: Think-then-Answer","muIncoherentHallucination_alignment_pressure_z",-2.01848628340753,0.219313024746768,-2.4645154952799,-1.60909853734639
+"Alphabetical Order: Think-then-Answer","muContradictoryReasoning_alignment_pressure_z",-2.31830214768612,0.244545963731243,-2.82261560992874,-1.86876485724194
+"Alphabetical Order: Answer-then-Think","muCoherentHallucination_alignment_pressure_z",-2.94553554797221,0.221698031975057,-3.40013184294176,-2.52175095066977
+"Alphabetical Order: Answer-then-Think","muIncoherentHallucination_alignment_pressure_z",-2.68702946818916,0.256895098761817,-3.19816168030305,-2.19331403142689
+"Alphabetical Order: Answer-then-Think","muContradictoryReasoning_alignment_pressure_z",-1.85130864208953,0.226639511012956,-2.30807934299737,-1.42821075929275
+"Factual Judgment","muCoherentHallucination_alignment_pressure_z",-2.98474350597451,0.390370378205846,-3.8019488712559,-2.27045279505665
+"Factual Judgment","muIncoherentHallucination_alignment_pressure_z",-2.90818238426582,0.443499906118866,-3.83396762111681,-2.11737479230932
+"Factual Judgment","muContradictoryReasoning_alignment_pressure_z",-2.73258128372768,0.370170998322831,-3.51416303822824,-2.0601718268504

@@ -1,0 +1,419 @@
+panel,task,model_name,model_label,endpoint,contrast,stratum_label,estimate,ci_low,ci_high,unit,p_value,n_pairs,layer,max_layer,relative_layer,target_layer,is_target_layer
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.3024011945676255,,,Absolute Pearson correlation,,,0.0,35.0,0.0,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.5122744047502283,,,Absolute Pearson correlation,,,1.0,35.0,0.0285714285714285,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.5580382279831577,,,Absolute Pearson correlation,,,2.0,35.0,0.0571428571428571,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.7998125507346103,,,Absolute Pearson correlation,,,3.0,35.0,0.0857142857142857,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.6667420946838445,,,Absolute Pearson correlation,,,4.0,35.0,0.1142857142857142,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.7002254789341271,,,Absolute Pearson correlation,,,5.0,35.0,0.1428571428571428,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.593141246609192,,,Absolute Pearson correlation,,,6.0,35.0,0.1714285714285714,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.6488288080779041,,,Absolute Pearson correlation,,,7.0,35.0,0.2,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4922890707017314,,,Absolute Pearson correlation,,,8.0,35.0,0.2285714285714285,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4885923657345185,,,Absolute Pearson correlation,,,9.0,35.0,0.2571428571428571,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4700931622455359,,,Absolute Pearson correlation,,,10.0,35.0,0.2857142857142857,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4433032005528933,,,Absolute Pearson correlation,,,11.0,35.0,0.3142857142857143,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.3469067101184038,,,Absolute Pearson correlation,,,12.0,35.0,0.3428571428571428,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4248103761699966,,,Absolute Pearson correlation,,,13.0,35.0,0.3714285714285714,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4062643108025356,,,Absolute Pearson correlation,,,14.0,35.0,0.4,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4214626771812219,,,Absolute Pearson correlation,,,15.0,35.0,0.4285714285714285,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4111900379193615,,,Absolute Pearson correlation,,,16.0,35.0,0.4571428571428571,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4029323318274858,,,Absolute Pearson correlation,,,17.0,35.0,0.4857142857142857,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4244401178646926,,,Absolute Pearson correlation,,,18.0,35.0,0.5142857142857142,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.3994987604261076,,,Absolute Pearson correlation,,,19.0,35.0,0.5428571428571428,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.2803668433316124,,,Absolute Pearson correlation,,,20.0,35.0,0.5714285714285714,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.2326033069086497,,,Absolute Pearson correlation,,,21.0,35.0,0.6,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.1700326914476799,,,Absolute Pearson correlation,,,22.0,35.0,0.6285714285714286,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.6194205274312385,,,Absolute Pearson correlation,,,23.0,35.0,0.6571428571428571,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.8463911352900898,,,Absolute Pearson correlation,,,24.0,35.0,0.6857142857142857,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.8046077453408669,,,Absolute Pearson correlation,,,25.0,35.0,0.7142857142857143,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.7483732503132952,,,Absolute Pearson correlation,,,26.0,35.0,0.7428571428571429,26.0,1.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.3668834933281076,,,Absolute Pearson correlation,,,27.0,35.0,0.7714285714285715,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4644486205076286,,,Absolute Pearson correlation,,,28.0,35.0,0.8,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.4487186966866602,,,Absolute Pearson correlation,,,29.0,35.0,0.8285714285714286,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.2596106929482335,,,Absolute Pearson correlation,,,30.0,35.0,0.8571428571428571,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.1387370119265397,,,Absolute Pearson correlation,,,31.0,35.0,0.8857142857142857,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.1219500262795578,,,Absolute Pearson correlation,,,32.0,35.0,0.9142857142857144,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.1035568830527854,,,Absolute Pearson correlation,,,33.0,35.0,0.9428571428571428,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.1110496853324225,,,Absolute Pearson correlation,,,34.0,35.0,0.9714285714285714,26.0,0.0
+a,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Representational Similarity,,,0.0620231833521726,,,Absolute Pearson correlation,,,35.0,35.0,1.0,26.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.4019223688393205,,,Absolute Pearson correlation,,,0.0,31.0,0.0,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.508417614072992,,,Absolute Pearson correlation,,,1.0,31.0,0.032258064516129,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3656164873915648,,,Absolute Pearson correlation,,,2.0,31.0,0.064516129032258,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.6058416895250951,,,Absolute Pearson correlation,,,3.0,31.0,0.0967741935483871,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.4847537625141686,,,Absolute Pearson correlation,,,4.0,31.0,0.1290322580645161,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.4136294082807477,,,Absolute Pearson correlation,,,5.0,31.0,0.1612903225806451,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.4853837046941569,,,Absolute Pearson correlation,,,6.0,31.0,0.1935483870967742,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3747622950189186,,,Absolute Pearson correlation,,,7.0,31.0,0.2258064516129032,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.047537588756131,,,Absolute Pearson correlation,,,8.0,31.0,0.2580645161290322,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3123390419031034,,,Absolute Pearson correlation,,,9.0,31.0,0.2903225806451613,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2867257873744234,,,Absolute Pearson correlation,,,10.0,31.0,0.3225806451612903,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.1499384352047586,,,Absolute Pearson correlation,,,11.0,31.0,0.3548387096774194,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.4817274744447435,,,Absolute Pearson correlation,,,12.0,31.0,0.3870967741935484,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.7021744399131291,,,Absolute Pearson correlation,,,13.0,31.0,0.4193548387096774,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.743323118196634,,,Absolute Pearson correlation,,,14.0,31.0,0.4516129032258064,14.0,1.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.6919737424300186,,,Absolute Pearson correlation,,,15.0,31.0,0.4838709677419355,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.6766710224679904,,,Absolute Pearson correlation,,,16.0,31.0,0.5161290322580645,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.612875306345583,,,Absolute Pearson correlation,,,17.0,31.0,0.5483870967741935,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.5124079089791139,,,Absolute Pearson correlation,,,18.0,31.0,0.5806451612903226,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3570878250142292,,,Absolute Pearson correlation,,,19.0,31.0,0.6129032258064516,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3776143660180533,,,Absolute Pearson correlation,,,20.0,31.0,0.6451612903225806,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3431364902802506,,,Absolute Pearson correlation,,,21.0,31.0,0.6774193548387096,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.3155764331220521,,,Absolute Pearson correlation,,,22.0,31.0,0.7096774193548387,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2972554119938022,,,Absolute Pearson correlation,,,23.0,31.0,0.7419354838709677,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2688614691978945,,,Absolute Pearson correlation,,,24.0,31.0,0.7741935483870968,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2462921891571688,,,Absolute Pearson correlation,,,25.0,31.0,0.8064516129032258,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2228494457466232,,,Absolute Pearson correlation,,,26.0,31.0,0.8387096774193549,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.2051920927110926,,,Absolute Pearson correlation,,,27.0,31.0,0.8709677419354839,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.1689926947781767,,,Absolute Pearson correlation,,,28.0,31.0,0.9032258064516128,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.1652374379585648,,,Absolute Pearson correlation,,,29.0,31.0,0.935483870967742,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.1205910323325152,,,Absolute Pearson correlation,,,30.0,31.0,0.967741935483871,14.0,0.0
+a,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Representational Similarity,,,0.107491123591439,,,Absolute Pearson correlation,,,31.0,31.0,1.0,14.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.0814539623110149,,,Absolute Pearson correlation,,,0.0,27.0,0.0,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.4411476817781365,,,Absolute Pearson correlation,,,1.0,27.0,0.037037037037037,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.43595560643816,,,Absolute Pearson correlation,,,2.0,27.0,0.074074074074074,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.625689699355493,,,Absolute Pearson correlation,,,3.0,27.0,0.1111111111111111,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.5138596978846204,,,Absolute Pearson correlation,,,4.0,27.0,0.1481481481481481,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.0293769144845626,,,Absolute Pearson correlation,,,5.0,27.0,0.1851851851851851,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.6251382298568252,,,Absolute Pearson correlation,,,6.0,27.0,0.2222222222222222,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.6496419234006658,,,Absolute Pearson correlation,,,7.0,27.0,0.2592592592592592,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.5765254132358661,,,Absolute Pearson correlation,,,8.0,27.0,0.2962962962962963,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.3371701705110872,,,Absolute Pearson correlation,,,9.0,27.0,0.3333333333333333,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.2905010897051386,,,Absolute Pearson correlation,,,10.0,27.0,0.3703703703703703,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.2244874179178196,,,Absolute Pearson correlation,,,11.0,27.0,0.4074074074074074,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.2524612136532222,,,Absolute Pearson correlation,,,12.0,27.0,0.4444444444444444,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.3641281538646758,,,Absolute Pearson correlation,,,13.0,27.0,0.4814814814814814,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.4767902658344846,,,Absolute Pearson correlation,,,14.0,27.0,0.5185185185185185,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.4593792473992947,,,Absolute Pearson correlation,,,15.0,27.0,0.5555555555555556,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.4653337669217466,,,Absolute Pearson correlation,,,16.0,27.0,0.5925925925925926,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.6544252097700543,,,Absolute Pearson correlation,,,17.0,27.0,0.6296296296296297,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.8522162599291383,,,Absolute Pearson correlation,,,18.0,27.0,0.6666666666666666,18.0,1.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.7501373210243889,,,Absolute Pearson correlation,,,19.0,27.0,0.7037037037037037,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.5684599937811163,,,Absolute Pearson correlation,,,20.0,27.0,0.7407407407407407,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.4920219359068302,,,Absolute Pearson correlation,,,21.0,27.0,0.7777777777777778,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.277276585384228,,,Absolute Pearson correlation,,,22.0,27.0,0.8148148148148148,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.2826711045429693,,,Absolute Pearson correlation,,,23.0,27.0,0.8518518518518519,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.2042553211136761,,,Absolute Pearson correlation,,,24.0,27.0,0.8888888888888888,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.154057994390214,,,Absolute Pearson correlation,,,25.0,27.0,0.925925925925926,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.1273997390882695,,,Absolute Pearson correlation,,,26.0,27.0,0.9629629629629628,18.0,0.0
+a,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Representational Similarity,,,0.0098645347214406,,,Absolute Pearson correlation,,,27.0,27.0,1.0,18.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.593331257859988,,,Absolute Pearson correlation,,,0.0,31.0,0.0,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.7369233585356711,,,Absolute Pearson correlation,,,1.0,31.0,0.032258064516129,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.6430885777705058,,,Absolute Pearson correlation,,,2.0,31.0,0.064516129032258,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.621421140482999,,,Absolute Pearson correlation,,,3.0,31.0,0.0967741935483871,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.6241071629492214,,,Absolute Pearson correlation,,,4.0,31.0,0.1290322580645161,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.5376177519087177,,,Absolute Pearson correlation,,,5.0,31.0,0.1612903225806451,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.454083967954526,,,Absolute Pearson correlation,,,6.0,31.0,0.1935483870967742,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2369528083077314,,,Absolute Pearson correlation,,,7.0,31.0,0.2258064516129032,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2655467943575296,,,Absolute Pearson correlation,,,8.0,31.0,0.2580645161290322,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1660065347053018,,,Absolute Pearson correlation,,,9.0,31.0,0.2903225806451613,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1485334734925285,,,Absolute Pearson correlation,,,10.0,31.0,0.3225806451612903,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1301285080055985,,,Absolute Pearson correlation,,,11.0,31.0,0.3548387096774194,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.5313896298514813,,,Absolute Pearson correlation,,,12.0,31.0,0.3870967741935484,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.7551184919569796,,,Absolute Pearson correlation,,,13.0,31.0,0.4193548387096774,13.0,1.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.6698157223750519,,,Absolute Pearson correlation,,,14.0,31.0,0.4516129032258064,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.6420690500405004,,,Absolute Pearson correlation,,,15.0,31.0,0.4838709677419355,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.5956229814036101,,,Absolute Pearson correlation,,,16.0,31.0,0.5161290322580645,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.4927494820731089,,,Absolute Pearson correlation,,,17.0,31.0,0.5483870967741935,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.3781010689871245,,,Absolute Pearson correlation,,,18.0,31.0,0.5806451612903226,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.338467681711632,,,Absolute Pearson correlation,,,19.0,31.0,0.6129032258064516,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.3093176248833318,,,Absolute Pearson correlation,,,20.0,31.0,0.6451612903225806,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.3126876082211532,,,Absolute Pearson correlation,,,21.0,31.0,0.6774193548387096,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.273110782435662,,,Absolute Pearson correlation,,,22.0,31.0,0.7096774193548387,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2453194491922346,,,Absolute Pearson correlation,,,23.0,31.0,0.7419354838709677,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2207070793668291,,,Absolute Pearson correlation,,,24.0,31.0,0.7741935483870968,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2310914333659136,,,Absolute Pearson correlation,,,25.0,31.0,0.8064516129032258,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2187708833448806,,,Absolute Pearson correlation,,,26.0,31.0,0.8387096774193549,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.2026536504100181,,,Absolute Pearson correlation,,,27.0,31.0,0.8709677419354839,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1939342515699603,,,Absolute Pearson correlation,,,28.0,31.0,0.9032258064516128,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1612284686570789,,,Absolute Pearson correlation,,,29.0,31.0,0.935483870967742,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1468696079287506,,,Absolute Pearson correlation,,,30.0,31.0,0.967741935483871,13.0,0.0
+a,Value Judgment Task,llama3_8b,Llama-3.1 8B,Representational Similarity,,,0.1812945513667377,,,Absolute Pearson correlation,,,31.0,31.0,1.0,13.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5604623317289062,,,Absolute Pearson correlation,,,0.0,41.0,0.0,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1751663031505312,,,Absolute Pearson correlation,,,1.0,41.0,0.024390243902439,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1418510473299149,,,Absolute Pearson correlation,,,2.0,41.0,0.048780487804878,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1509733036778724,,,Absolute Pearson correlation,,,3.0,41.0,0.073170731707317,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1146902107912145,,,Absolute Pearson correlation,,,4.0,41.0,0.0975609756097561,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.0188146378105824,,,Absolute Pearson correlation,,,5.0,41.0,0.1219512195121951,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.3947944578840893,,,Absolute Pearson correlation,,,6.0,41.0,0.1463414634146341,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.3688555064403161,,,Absolute Pearson correlation,,,7.0,41.0,0.1707317073170731,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.0119848661822802,,,Absolute Pearson correlation,,,8.0,41.0,0.1951219512195122,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1595235943147083,,,Absolute Pearson correlation,,,9.0,41.0,0.2195121951219512,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5253602823640721,,,Absolute Pearson correlation,,,10.0,41.0,0.2439024390243902,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.519681233202785,,,Absolute Pearson correlation,,,11.0,41.0,0.2682926829268293,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5315513000439173,,,Absolute Pearson correlation,,,12.0,41.0,0.2926829268292683,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5379239443297761,,,Absolute Pearson correlation,,,13.0,41.0,0.3170731707317073,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5101835480298478,,,Absolute Pearson correlation,,,14.0,41.0,0.3414634146341463,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.4354500743868178,,,Absolute Pearson correlation,,,15.0,41.0,0.3658536585365853,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.7063047414124816,,,Absolute Pearson correlation,,,16.0,41.0,0.3902439024390244,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.607577265749972,,,Absolute Pearson correlation,,,17.0,41.0,0.4146341463414634,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.3668718050355504,,,Absolute Pearson correlation,,,18.0,41.0,0.4390243902439024,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.4353812218870979,,,Absolute Pearson correlation,,,19.0,41.0,0.4634146341463415,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5319427084403178,,,Absolute Pearson correlation,,,20.0,41.0,0.4878048780487805,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.6179968951290661,,,Absolute Pearson correlation,,,21.0,41.0,0.5121951219512195,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.7032162903722852,,,Absolute Pearson correlation,,,22.0,41.0,0.5365853658536586,22.0,1.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5668213713719878,,,Absolute Pearson correlation,,,23.0,41.0,0.5609756097560976,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5361361406360267,,,Absolute Pearson correlation,,,24.0,41.0,0.5853658536585366,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.5988134507077045,,,Absolute Pearson correlation,,,25.0,41.0,0.6097560975609756,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.4911646714371327,,,Absolute Pearson correlation,,,26.0,41.0,0.6341463414634146,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.4690270319570978,,,Absolute Pearson correlation,,,27.0,41.0,0.6585365853658537,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.3864021110648304,,,Absolute Pearson correlation,,,28.0,41.0,0.6829268292682927,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.310915491249607,,,Absolute Pearson correlation,,,29.0,41.0,0.7073170731707317,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2773976009058856,,,Absolute Pearson correlation,,,30.0,41.0,0.7317073170731707,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2710459807977776,,,Absolute Pearson correlation,,,31.0,41.0,0.7560975609756098,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2316349580097385,,,Absolute Pearson correlation,,,32.0,41.0,0.7804878048780488,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2114466514925536,,,Absolute Pearson correlation,,,33.0,41.0,0.8048780487804879,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2120428200417652,,,Absolute Pearson correlation,,,34.0,41.0,0.8292682926829268,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.2073846077795195,,,Absolute Pearson correlation,,,35.0,41.0,0.8536585365853658,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1667490862830282,,,Absolute Pearson correlation,,,36.0,41.0,0.8780487804878049,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1480711945687949,,,Absolute Pearson correlation,,,37.0,41.0,0.902439024390244,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.1208575726366788,,,Absolute Pearson correlation,,,38.0,41.0,0.926829268292683,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.0995446974322123,,,Absolute Pearson correlation,,,39.0,41.0,0.951219512195122,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.0881148025040844,,,Absolute Pearson correlation,,,40.0,41.0,0.975609756097561,22.0,0.0
+a,Value Judgment Task,gemma2_9b,Gemma-2 9B,Representational Similarity,,,0.0918618688951658,,,Absolute Pearson correlation,,,41.0,41.0,1.0,22.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5690699357780429,,,Absolute Pearson correlation,,,0.0,47.0,0.0,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5356316376314345,,,Absolute Pearson correlation,,,1.0,47.0,0.0212765957446808,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4988363325014004,,,Absolute Pearson correlation,,,2.0,47.0,0.0425531914893617,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4680541418972462,,,Absolute Pearson correlation,,,3.0,47.0,0.0638297872340425,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4483716874500035,,,Absolute Pearson correlation,,,4.0,47.0,0.0851063829787234,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2927170357991792,,,Absolute Pearson correlation,,,5.0,47.0,0.1063829787234042,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1938711785254836,,,Absolute Pearson correlation,,,6.0,47.0,0.1276595744680851,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1667737968256443,,,Absolute Pearson correlation,,,7.0,47.0,0.1489361702127659,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3747721215311552,,,Absolute Pearson correlation,,,8.0,47.0,0.1702127659574468,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2254556074403165,,,Absolute Pearson correlation,,,9.0,47.0,0.1914893617021276,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5163155814987261,,,Absolute Pearson correlation,,,10.0,47.0,0.2127659574468085,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5143882053014622,,,Absolute Pearson correlation,,,11.0,47.0,0.2340425531914893,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.496095185779044,,,Absolute Pearson correlation,,,12.0,47.0,0.2553191489361702,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4802518973582722,,,Absolute Pearson correlation,,,13.0,47.0,0.2765957446808511,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4606678510179364,,,Absolute Pearson correlation,,,14.0,47.0,0.2978723404255319,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4891846486379881,,,Absolute Pearson correlation,,,15.0,47.0,0.3191489361702128,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4468844157526239,,,Absolute Pearson correlation,,,16.0,47.0,0.3404255319148936,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.4279807254131594,,,Absolute Pearson correlation,,,17.0,47.0,0.3617021276595745,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3334387958502642,,,Absolute Pearson correlation,,,18.0,47.0,0.3829787234042553,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3043170048989113,,,Absolute Pearson correlation,,,19.0,47.0,0.4042553191489361,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3121478065740035,,,Absolute Pearson correlation,,,20.0,47.0,0.425531914893617,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3624705885868001,,,Absolute Pearson correlation,,,21.0,47.0,0.4468085106382978,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2783301658741383,,,Absolute Pearson correlation,,,22.0,47.0,0.4680851063829787,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2440215814399646,,,Absolute Pearson correlation,,,23.0,47.0,0.4893617021276595,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1448369678420494,,,Absolute Pearson correlation,,,24.0,47.0,0.5106382978723404,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1079543487739164,,,Absolute Pearson correlation,,,25.0,47.0,0.5319148936170213,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1401108596647626,,,Absolute Pearson correlation,,,26.0,47.0,0.5531914893617021,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.6380742684904486,,,Absolute Pearson correlation,,,27.0,47.0,0.574468085106383,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.7608969974900802,,,Absolute Pearson correlation,,,28.0,47.0,0.5957446808510638,28.0,1.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.7161403008138367,,,Absolute Pearson correlation,,,29.0,47.0,0.6170212765957447,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.7098364616825132,,,Absolute Pearson correlation,,,30.0,47.0,0.6382978723404256,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.6303058911460031,,,Absolute Pearson correlation,,,31.0,47.0,0.6595744680851063,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5329196777694255,,,Absolute Pearson correlation,,,32.0,47.0,0.6808510638297872,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.5331441686292921,,,Absolute Pearson correlation,,,33.0,47.0,0.7021276595744681,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3889202978681125,,,Absolute Pearson correlation,,,34.0,47.0,0.723404255319149,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.3371737183834637,,,Absolute Pearson correlation,,,35.0,47.0,0.7446808510638298,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2621172682012845,,,Absolute Pearson correlation,,,36.0,47.0,0.7659574468085106,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2779235743826017,,,Absolute Pearson correlation,,,37.0,47.0,0.7872340425531915,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2886200751837619,,,Absolute Pearson correlation,,,38.0,47.0,0.8085106382978723,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2438173804527455,,,Absolute Pearson correlation,,,39.0,47.0,0.8297872340425532,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2432501385961885,,,Absolute Pearson correlation,,,40.0,47.0,0.851063829787234,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2232093046474366,,,Absolute Pearson correlation,,,41.0,47.0,0.8723404255319149,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.2201731322770608,,,Absolute Pearson correlation,,,42.0,47.0,0.8936170212765957,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.206548395934386,,,Absolute Pearson correlation,,,43.0,47.0,0.9148936170212766,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1773612484277332,,,Absolute Pearson correlation,,,44.0,47.0,0.9361702127659576,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1410492274348417,,,Absolute Pearson correlation,,,45.0,47.0,0.9574468085106383,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1351983687665627,,,Absolute Pearson correlation,,,46.0,47.0,0.9787234042553192,28.0,0.0
+a,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Representational Similarity,,,0.1065622893549888,,,Absolute Pearson correlation,,,47.0,47.0,1.0,28.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.5690816943941834,,,Absolute Pearson correlation,,,0.0,63.0,0.0,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.4977701871054945,,,Absolute Pearson correlation,,,1.0,63.0,0.0158730158730158,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.4659427309670984,,,Absolute Pearson correlation,,,2.0,63.0,0.0317460317460317,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.4873484229138946,,,Absolute Pearson correlation,,,3.0,63.0,0.0476190476190476,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0649352927839243,,,Absolute Pearson correlation,,,4.0,63.0,0.0634920634920634,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.6887482191300137,,,Absolute Pearson correlation,,,5.0,63.0,0.0793650793650793,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.6463326924092898,,,Absolute Pearson correlation,,,6.0,63.0,0.0952380952380952,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.5540858799309654,,,Absolute Pearson correlation,,,7.0,63.0,0.1111111111111111,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0632175278487926,,,Absolute Pearson correlation,,,8.0,63.0,0.1269841269841269,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0068117336282464,,,Absolute Pearson correlation,,,9.0,63.0,0.1428571428571428,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1154075898401851,,,Absolute Pearson correlation,,,10.0,63.0,0.1587301587301587,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.143600856222277,,,Absolute Pearson correlation,,,11.0,63.0,0.1746031746031746,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1648950283174297,,,Absolute Pearson correlation,,,12.0,63.0,0.1904761904761904,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2867518562502261,,,Absolute Pearson correlation,,,13.0,63.0,0.2063492063492063,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3079932142497977,,,Absolute Pearson correlation,,,14.0,63.0,0.2222222222222222,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3534603798233802,,,Absolute Pearson correlation,,,15.0,63.0,0.238095238095238,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3579385821270476,,,Absolute Pearson correlation,,,16.0,63.0,0.2539682539682539,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3216196700872518,,,Absolute Pearson correlation,,,17.0,63.0,0.2698412698412698,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3263703734264008,,,Absolute Pearson correlation,,,18.0,63.0,0.2857142857142857,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2531392606358759,,,Absolute Pearson correlation,,,19.0,63.0,0.3015873015873015,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2493574802210643,,,Absolute Pearson correlation,,,20.0,63.0,0.3174603174603174,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2332406359005133,,,Absolute Pearson correlation,,,21.0,63.0,0.3333333333333333,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2899479269484771,,,Absolute Pearson correlation,,,22.0,63.0,0.3492063492063492,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3478177147351879,,,Absolute Pearson correlation,,,23.0,63.0,0.365079365079365,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3858601755275468,,,Absolute Pearson correlation,,,24.0,63.0,0.3809523809523809,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3928977264541544,,,Absolute Pearson correlation,,,25.0,63.0,0.3968253968253968,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3822586075938437,,,Absolute Pearson correlation,,,26.0,63.0,0.4126984126984127,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3746130929323096,,,Absolute Pearson correlation,,,27.0,63.0,0.4285714285714285,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2684262829763585,,,Absolute Pearson correlation,,,28.0,63.0,0.4444444444444444,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2929239255753087,,,Absolute Pearson correlation,,,29.0,63.0,0.4603174603174603,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.173738083404212,,,Absolute Pearson correlation,,,30.0,63.0,0.4761904761904761,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0296955507292716,,,Absolute Pearson correlation,,,31.0,63.0,0.492063492063492,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3811309958510912,,,Absolute Pearson correlation,,,32.0,63.0,0.5079365079365079,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.340448411827759,,,Absolute Pearson correlation,,,33.0,63.0,0.5238095238095238,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2190878588339134,,,Absolute Pearson correlation,,,34.0,63.0,0.5396825396825397,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.077776912040961,,,Absolute Pearson correlation,,,35.0,63.0,0.5555555555555556,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0958968246996452,,,Absolute Pearson correlation,,,36.0,63.0,0.5714285714285714,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.215508058673754,,,Absolute Pearson correlation,,,37.0,63.0,0.5873015873015873,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3052655669620223,,,Absolute Pearson correlation,,,38.0,63.0,0.6031746031746031,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3480346248972945,,,Absolute Pearson correlation,,,39.0,63.0,0.6190476190476191,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.5130863260096337,,,Absolute Pearson correlation,,,40.0,63.0,0.6349206349206349,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.6560965262193471,,,Absolute Pearson correlation,,,41.0,63.0,0.6507936507936508,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.7256773888398869,,,Absolute Pearson correlation,,,42.0,63.0,0.6666666666666666,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.7313447450839207,,,Absolute Pearson correlation,,,43.0,63.0,0.6825396825396826,43.0,1.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.7395710894638241,,,Absolute Pearson correlation,,,44.0,63.0,0.6984126984126984,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.7200756437233369,,,Absolute Pearson correlation,,,45.0,63.0,0.7142857142857143,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.6919433741855838,,,Absolute Pearson correlation,,,46.0,63.0,0.7301587301587301,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.683856587341481,,,Absolute Pearson correlation,,,47.0,63.0,0.746031746031746,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.426391904625626,,,Absolute Pearson correlation,,,48.0,63.0,0.7619047619047619,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.4282832616303427,,,Absolute Pearson correlation,,,49.0,63.0,0.7777777777777778,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3638362863220467,,,Absolute Pearson correlation,,,50.0,63.0,0.7936507936507936,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.3322806083103962,,,Absolute Pearson correlation,,,51.0,63.0,0.8095238095238095,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2336101517654698,,,Absolute Pearson correlation,,,52.0,63.0,0.8253968253968254,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2366222206162388,,,Absolute Pearson correlation,,,53.0,63.0,0.8412698412698413,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.2128028431345781,,,Absolute Pearson correlation,,,54.0,63.0,0.8571428571428571,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1662936020720533,,,Absolute Pearson correlation,,,55.0,63.0,0.873015873015873,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1670863398629892,,,Absolute Pearson correlation,,,56.0,63.0,0.8888888888888888,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1537172051279674,,,Absolute Pearson correlation,,,57.0,63.0,0.9047619047619048,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1438052893055531,,,Absolute Pearson correlation,,,58.0,63.0,0.9206349206349206,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.132905451831775,,,Absolute Pearson correlation,,,59.0,63.0,0.9365079365079364,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1125937829525213,,,Absolute Pearson correlation,,,60.0,63.0,0.9523809523809524,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.1153763267633006,,,Absolute Pearson correlation,,,61.0,63.0,0.9682539682539684,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0959354343179905,,,Absolute Pearson correlation,,,62.0,63.0,0.984126984126984,43.0,0.0
+a,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Representational Similarity,,,0.0957654624590056,,,Absolute Pearson correlation,,,63.0,63.0,1.0,43.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2006925963114152,,,Absolute Pearson correlation,,,0.0,79.0,0.0,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2145928710402919,,,Absolute Pearson correlation,,,1.0,79.0,0.0126582278481012,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.248134384059444,,,Absolute Pearson correlation,,,2.0,79.0,0.0253164556962025,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0442207584102031,,,Absolute Pearson correlation,,,3.0,79.0,0.0379746835443038,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0529531275938132,,,Absolute Pearson correlation,,,4.0,79.0,0.050632911392405,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2675946971396949,,,Absolute Pearson correlation,,,5.0,79.0,0.0632911392405063,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.26539986132971,,,Absolute Pearson correlation,,,6.0,79.0,0.0759493670886076,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2545787681232074,,,Absolute Pearson correlation,,,7.0,79.0,0.0886075949367088,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2401626701457898,,,Absolute Pearson correlation,,,8.0,79.0,0.1012658227848101,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2409744987982411,,,Absolute Pearson correlation,,,9.0,79.0,0.1139240506329113,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1677940240232289,,,Absolute Pearson correlation,,,10.0,79.0,0.1265822784810126,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1572663215579402,,,Absolute Pearson correlation,,,11.0,79.0,0.1392405063291139,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1064690439309916,,,Absolute Pearson correlation,,,12.0,79.0,0.1518987341772152,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0022681665011023,,,Absolute Pearson correlation,,,13.0,79.0,0.1645569620253164,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0577895893854907,,,Absolute Pearson correlation,,,14.0,79.0,0.1772151898734177,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1645459821024698,,,Absolute Pearson correlation,,,15.0,79.0,0.189873417721519,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.257714696739856,,,Absolute Pearson correlation,,,16.0,79.0,0.2025316455696202,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1470173949409557,,,Absolute Pearson correlation,,,17.0,79.0,0.2151898734177215,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1627734789231657,,,Absolute Pearson correlation,,,18.0,79.0,0.2278481012658227,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1585854640319923,,,Absolute Pearson correlation,,,19.0,79.0,0.240506329113924,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1460509177659694,,,Absolute Pearson correlation,,,20.0,79.0,0.2531645569620253,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1331339474644698,,,Absolute Pearson correlation,,,21.0,79.0,0.2658227848101265,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.158385104732673,,,Absolute Pearson correlation,,,22.0,79.0,0.2784810126582278,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0514154188243035,,,Absolute Pearson correlation,,,23.0,79.0,0.2911392405063291,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1190968233331082,,,Absolute Pearson correlation,,,24.0,79.0,0.3037974683544304,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.195430615004985,,,Absolute Pearson correlation,,,25.0,79.0,0.3164556962025316,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2286352099168676,,,Absolute Pearson correlation,,,26.0,79.0,0.3291139240506329,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1004667971050484,,,Absolute Pearson correlation,,,27.0,79.0,0.3417721518987341,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.156891748169944,,,Absolute Pearson correlation,,,28.0,79.0,0.3544303797468354,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0578377890737224,,,Absolute Pearson correlation,,,29.0,79.0,0.3670886075949367,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.176422895346355,,,Absolute Pearson correlation,,,30.0,79.0,0.379746835443038,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2768531740344547,,,Absolute Pearson correlation,,,31.0,79.0,0.3924050632911392,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3021974923746112,,,Absolute Pearson correlation,,,32.0,79.0,0.4050632911392405,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3238372957917942,,,Absolute Pearson correlation,,,33.0,79.0,0.4177215189873418,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3598751858807908,,,Absolute Pearson correlation,,,34.0,79.0,0.430379746835443,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4220256899961265,,,Absolute Pearson correlation,,,35.0,79.0,0.4430379746835443,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4068390777880434,,,Absolute Pearson correlation,,,36.0,79.0,0.4556962025316455,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.5048129194615547,,,Absolute Pearson correlation,,,37.0,79.0,0.4683544303797468,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.5070291587221665,,,Absolute Pearson correlation,,,38.0,79.0,0.4810126582278481,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.5127636820153638,,,Absolute Pearson correlation,,,39.0,79.0,0.4936708860759494,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.5139884041075287,,,Absolute Pearson correlation,,,40.0,79.0,0.5063291139240507,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4991134982796429,,,Absolute Pearson correlation,,,41.0,79.0,0.5189873417721519,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4782431507465005,,,Absolute Pearson correlation,,,42.0,79.0,0.5316455696202531,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4676776866467692,,,Absolute Pearson correlation,,,43.0,79.0,0.5443037974683544,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4596159575792157,,,Absolute Pearson correlation,,,44.0,79.0,0.5569620253164557,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4529757344076505,,,Absolute Pearson correlation,,,45.0,79.0,0.569620253164557,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4742742883260933,,,Absolute Pearson correlation,,,46.0,79.0,0.5822784810126582,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3695934512925367,,,Absolute Pearson correlation,,,47.0,79.0,0.5949367088607594,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3261801628745853,,,Absolute Pearson correlation,,,48.0,79.0,0.6075949367088608,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1242105404088588,,,Absolute Pearson correlation,,,49.0,79.0,0.620253164556962,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.6064317362165439,,,Absolute Pearson correlation,,,50.0,79.0,0.6329113924050633,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.6669463931343111,,,Absolute Pearson correlation,,,51.0,79.0,0.6455696202531646,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.7788865927454098,,,Absolute Pearson correlation,,,52.0,79.0,0.6582278481012658,52.0,1.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.7471645852770685,,,Absolute Pearson correlation,,,53.0,79.0,0.6708860759493671,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.741591960394245,,,Absolute Pearson correlation,,,54.0,79.0,0.6835443037974683,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.7350270386892126,,,Absolute Pearson correlation,,,55.0,79.0,0.6962025316455697,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.6958605062981833,,,Absolute Pearson correlation,,,56.0,79.0,0.7088607594936709,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.657978094932946,,,Absolute Pearson correlation,,,57.0,79.0,0.7215189873417721,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.6543098369897766,,,Absolute Pearson correlation,,,58.0,79.0,0.7341772151898734,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.6501437457992499,,,Absolute Pearson correlation,,,59.0,79.0,0.7468354430379747,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4618390816990222,,,Absolute Pearson correlation,,,60.0,79.0,0.759493670886076,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.4101607869338675,,,Absolute Pearson correlation,,,61.0,79.0,0.7721518987341772,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3968902541947267,,,Absolute Pearson correlation,,,62.0,79.0,0.7848101265822784,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3959722904401245,,,Absolute Pearson correlation,,,63.0,79.0,0.7974683544303798,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3568487740624564,,,Absolute Pearson correlation,,,64.0,79.0,0.810126582278481,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2758391051422786,,,Absolute Pearson correlation,,,65.0,79.0,0.8227848101265823,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.3139610336549435,,,Absolute Pearson correlation,,,66.0,79.0,0.8354430379746836,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2887731074459733,,,Absolute Pearson correlation,,,67.0,79.0,0.8481012658227848,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2662202670845926,,,Absolute Pearson correlation,,,68.0,79.0,0.8607594936708861,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2549617676069745,,,Absolute Pearson correlation,,,69.0,79.0,0.8734177215189873,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2649181911270815,,,Absolute Pearson correlation,,,70.0,79.0,0.8860759493670886,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2516612187081175,,,Absolute Pearson correlation,,,71.0,79.0,0.8987341772151899,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.242527941969274,,,Absolute Pearson correlation,,,72.0,79.0,0.9113924050632912,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2225752376536831,,,Absolute Pearson correlation,,,73.0,79.0,0.9240506329113924,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.2055790640536243,,,Absolute Pearson correlation,,,74.0,79.0,0.9367088607594936,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1878037193189816,,,Absolute Pearson correlation,,,75.0,79.0,0.9493670886075948,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.156733539206826,,,Absolute Pearson correlation,,,76.0,79.0,0.9620253164556962,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1363546007485682,,,Absolute Pearson correlation,,,77.0,79.0,0.9746835443037974,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.1451977322435781,,,Absolute Pearson correlation,,,78.0,79.0,0.9873417721518988,52.0,0.0
+a,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Representational Similarity,,,0.0229991206879633,,,Absolute Pearson correlation,,,79.0,79.0,1.0,52.0,0.0
+b,Value Judgment Task,qwen25_3b,Qwen2.5 3B,Standardized Causal Control Effect,,,0.5524979147922726,0.5134499190499517,0.5915459105345935,Standardized coefficient,2.878962789216116e-169,,,,,26.0,
+b,Sentiment Analysis Task,qwen25_3b,Qwen2.5 3B,Standardized Causal Control Effect,,,0.7650447012201771,0.7283417135476874,0.8017476888926668,Standardized coefficient,0.0,,,,,26.0,
+b,Value Judgment Task,mistral_7b,Mistral-7B v0.3,Standardized Causal Control Effect,,,0.5331457045842791,0.4961614913592379,0.5701299178093203,Standardized coefficient,1.2765064099165028e-175,,,,,14.0,
+b,Sentiment Analysis Task,mistral_7b,Mistral-7B v0.3,Standardized Causal Control Effect,,,0.6955498838763698,0.6578983755315245,0.7332013922212152,Standardized coefficient,4.703488039907152e-287,,,,,14.0,
+b,Value Judgment Task,qwen25_7b,Qwen2.5 7B,Standardized Causal Control Effect,,,0.7689580037619757,0.7360252483483929,0.8018907591755584,Standardized coefficient,0.0,,,,,18.0,
+b,Sentiment Analysis Task,qwen25_7b,Qwen2.5 7B,Standardized Causal Control Effect,,,0.8211207201981298,0.7902654396916108,0.8519760007046487,Standardized coefficient,0.0,,,,,18.0,
+b,Value Judgment Task,llama3_8b,Llama-3.1 8B,Standardized Causal Control Effect,,,0.9113081532079108,0.8957137801876704,0.926902526228151,Standardized coefficient,0.0,,,,,13.0,
+b,Sentiment Analysis Task,llama3_8b,Llama-3.1 8B,Standardized Causal Control Effect,,,0.6699808764308078,0.6434526381724675,0.6965091146891482,Standardized coefficient,0.0,,,,,13.0,
+b,Value Judgment Task,gemma2_9b,Gemma-2 9B,Standardized Causal Control Effect,,,0.6605772245446981,0.6262574840084496,0.6948969650809467,Standardized coefficient,0.0,,,,,22.0,
+b,Sentiment Analysis Task,gemma2_9b,Gemma-2 9B,Standardized Causal Control Effect,,,0.795180347536183,0.763946035910473,0.826414659161893,Standardized coefficient,0.0,,,,,22.0,
+b,Value Judgment Task,qwen25_14b,Qwen2.5 14B,Standardized Causal Control Effect,,,0.8389735936475343,0.8071006910516734,0.8708464962433953,Standardized coefficient,0.0,,,,,28.0,
+b,Sentiment Analysis Task,qwen25_14b,Qwen2.5 14B,Standardized Causal Control Effect,,,0.8388068966267713,0.8128616031463033,0.8647521901072394,Standardized coefficient,0.0,,,,,28.0,
+b,Value Judgment Task,qwen25_32b,Qwen2.5 32B,Standardized Causal Control Effect,,,0.8546475974288181,0.8246637458765769,0.8846314489810594,Standardized coefficient,0.0,,,,,43.0,
+b,Sentiment Analysis Task,qwen25_32b,Qwen2.5 32B,Standardized Causal Control Effect,,,0.9126938184853152,0.8899917995152492,0.9353958374553812,Standardized coefficient,0.0,,,,,43.0,
+b,Value Judgment Task,qwen25_72b,Qwen2.5 72B,Standardized Causal Control Effect,,,0.757522883295088,0.7312208825183499,0.783824884071826,Standardized coefficient,0.0,,,,,52.0,
+b,Sentiment Analysis Task,qwen25_72b,Qwen2.5 72B,Standardized Causal Control Effect,,,0.8341759385006706,0.809471288832152,0.8588805881691892,Standardized coefficient,0.0,,,,,52.0,
+c,Subjective Preference Task,qwen25_3b,Qwen2.5 3B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,6.07984637417618,5.18120206514567,6.97849068320668,Full-sequence log-probability margin per 1 SD alpha,1.34530734841695e-29,,,,,,
+c,Subjective Preference Task,qwen25_3b,Qwen2.5 3B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,5.90492323647547,4.99349859944634,6.8163478735046,Full-sequence log-probability margin per 1 SD alpha,7.68113912303763e-28,,,,,,
+c,Subjective Preference Task,qwen25_7b,Qwen2.5 7B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,8.64593809593297,7.78920275224931,9.50267343961663,Full-sequence log-probability margin per 1 SD alpha,1.13065794028441e-49,,,,,,
+c,Subjective Preference Task,qwen25_7b,Qwen2.5 7B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,8.45098106153957,7.5820614102357,9.31990071284343,Full-sequence log-probability margin per 1 SD alpha,1.55128335289609e-47,,,,,,
+c,Subjective Preference Task,qwen25_14b,Qwen2.5 14B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,9.98174951649414,8.47966236447506,11.4838366685132,Full-sequence log-probability margin per 1 SD alpha,7.35383081269458e-29,,,,,,
+c,Subjective Preference Task,qwen25_14b,Qwen2.5 14B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,9.20677834902238,7.68332883339124,10.7302278646535,Full-sequence log-probability margin per 1 SD alpha,3.43754543777076e-25,,,,,,
+c,Subjective Preference Task,qwen25_32b,Qwen2.5 32B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,9.88819698307132,8.62035663503665,11.156037331106,Full-sequence log-probability margin per 1 SD alpha,6.06780909064439e-36,,,,,,
+c,Subjective Preference Task,qwen25_32b,Qwen2.5 32B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,10.5655213795955,9.2796500761123,11.8513926830787,Full-sequence log-probability margin per 1 SD alpha,1.71290279374587e-38,,,,,,
+c,Subjective Preference Task,qwen25_72b,Qwen2.5 72B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,5.54280899923785,4.67508586745161,6.41053213102409,Full-sequence log-probability margin per 1 SD alpha,2.76368695537108e-27,,,,,,
+c,Subjective Preference Task,qwen25_72b,Qwen2.5 72B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,5.19173725368892,4.31167354830191,6.07180095907593,Full-sequence log-probability margin per 1 SD alpha,2.55456915454342e-24,,,,,,
+c,Subjective Preference Task,llama3_8b,Llama-3.1 8B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,1.69862433513613,1.28712751402147,2.11012115625078,Full-sequence log-probability margin per 1 SD alpha,3.8842367189237e-14,,,,,,
+c,Subjective Preference Task,llama3_8b,Llama-3.1 8B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,1.86876610328244,1.4514170620045,2.28611514456038,Full-sequence log-probability margin per 1 SD alpha,4.85623605689158e-16,,,,,,
+c,Subjective Preference Task,mistral_7b,Mistral-7B v0.3,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,4.21181783341416,3.45125508442045,4.97238058240786,Full-sequence log-probability margin per 1 SD alpha,3.58498073025829e-22,,,,,,
+c,Subjective Preference Task,mistral_7b,Mistral-7B v0.3,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,3.52509406748521,2.75255321547834,4.29763491949208,Full-sequence log-probability margin per 1 SD alpha,1.59136085400268e-16,,,,,,
+c,Subjective Preference Task,gemma2_9b,Gemma-2 9B,Valence-Specific Steering Effect,valenced - neutral,Non-opposed,2.74971673182616,2.0512586997769,3.44817476387543,Full-sequence log-probability margin per 1 SD alpha,3.90069017599912e-13,,,,,,
+c,Subjective Preference Task,gemma2_9b,Gemma-2 9B,Valence-Specific Steering Effect,valenced - neutral,Opposed/contrast,2.7778697593338,2.0684117114811,3.4873278071865,Full-sequence log-probability margin per 1 SD alpha,5.04009886966834e-13,,,,,,
+d,Factual Judgment Task,gemma2_9b,Gemma-2 9B,Coherent-Hallucination Effect,,,-1.29055956581854,-1.74749366480878,-0.833625466828302,Log-odds coefficient per 1 SD alignment pressure,3.09987087195063e-08,,,,,,
+d,Factual Judgment Task,llama3_8b,Llama-3.1 8B,Coherent-Hallucination Effect,,,-0.986935728513863,-1.32323544172033,-0.6506360153074,Log-odds coefficient per 1 SD alignment pressure,8.825195368787321e-09,,,,,,
+d,Factual Judgment Task,mistral_7b,Mistral-7B v0.3,Coherent-Hallucination Effect,,,-0.787272772975162,-1.11666987264058,-0.457875673309748,Log-odds coefficient per 1 SD alignment pressure,2.80787418098912e-06,,,,,,
+d,Factual Judgment Task,qwen25_14b,Qwen2.5 14B,Coherent-Hallucination Effect,,,-1.44904872103822,-1.91811075445256,-0.979986687623883,Log-odds coefficient per 1 SD alignment pressure,1.4058011847232e-09,,,,,,
+d,Factual Judgment Task,qwen25_32b,Qwen2.5 32B,Coherent-Hallucination Effect,,,-1.81076549877877,-2.41967122437827,-1.20185977317926,Log-odds coefficient per 1 SD alignment pressure,5.59123137161575e-09,,,,,,
+d,Factual Judgment Task,qwen25_3b,Qwen2.5 3B,Coherent-Hallucination Effect,,,-0.497125688746152,-0.817813912108783,-0.176437465383522,Log-odds coefficient per 1 SD alignment pressure,0.0023791348468672,,,,,,
+d,Factual Judgment Task,qwen25_72b,Qwen2.5 72B,Coherent-Hallucination Effect,,,-1.05520870116523,-1.46965626823292,-0.64076113409754,Log-odds coefficient per 1 SD alignment pressure,6.0320726057033e-07,,,,,,
+d,Factual Judgment Task,qwen25_7b,Qwen2.5 7B,Coherent-Hallucination Effect,,,-1.52279863262138,-1.98740595395194,-1.05819131129082,Log-odds coefficient per 1 SD alignment pressure,1.32752266771106e-10,,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_3b,Qwen2.5 3B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,1.42588421552408,1.32005913295755,1.52890255409053,Baseline SD,5.57792956584795e-81,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_7b,Qwen2.5 7B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,0.691186197395349,0.629240565688192,0.750582517934215,Baseline SD,1.17934113183646e-66,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,llama3_8b,Llama-3.1 8B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,0.933296069967669,0.864786378937777,0.997789727638155,Baseline SD,3.52241485335221e-83,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,mistral_7b,Mistral-7B v0.3,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,2.2221406498971,2.13546824995226,2.30560876602886,Baseline SD,8.519214823557861e-149,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,gemma2_9b,Gemma-2 9B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,1.70772548166283,1.61958283023536,1.79251499082683,Baseline SD,5.71837554112e-115,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_14b,Qwen2.5 14B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,0.827752329889588,0.755886597376663,0.900384657838908,Baseline SD,9.8401546618376e-64,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_32b,Qwen2.5 32B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,0.612768566206775,0.518254596793784,0.708284430141398,Baseline SD,4.0489313756093297e-29,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_72b,Qwen2.5 72B,Pre-Response VAA Projection Difference,user_like_minus_user_dislike,,2.22416621434815,2.06982334922019,2.37811430563663,Baseline SD,1.80012005878686e-85,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_3b,Qwen2.5 3B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,79.6610169491525,74.9152542372881,84.0677966101695,Percentage points,2.15525162076081e-69,295.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_7b,Qwen2.5 7B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,37.5,32.0945945945946,43.2432432432432,Percentage points,2.19556013660146e-32,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,llama3_8b,Llama-3.1 8B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,42.9054054054054,37.5,48.6486486486487,Percentage points,1.17549435082229e-38,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,mistral_7b,Mistral-7B v0.3,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,79.6610169491525,74.9152542372881,84.0677966101695,Percentage points,3.62227163153072e-71,295.0,,,,,
+e,Feedback-Induced Sycophancy Task,gemma2_9b,Gemma-2 9B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,39.527027027027,34.1216216216216,44.9324324324324,Percentage points,1.20370621524204e-35,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_14b,Qwen2.5 14B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,30.4054054054054,25.3378378378378,35.8108108108108,Percentage points,1.61558713389264e-27,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_32b,Qwen2.5 32B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,18.2432432432432,13.8513513513514,22.6351351351351,Percentage points,1.11022302462516e-16,296.0,,,,,
+e,Feedback-Induced Sycophancy Task,qwen25_72b,Qwen2.5 72B,Strong-Verdict Rate Difference,user_like_minus_user_dislike,,40.418118466899,34.8432055749129,45.993031358885,Percentage points,2.40741243048405e-35,287.0,,,,,

@@ -1,0 +1,48 @@
+schema_version: 1
+model_registry: configs/models.yaml
+vaa_vectors:
+  format: numpy_npy
+  dtype: float64
+  allow_pickle: false
+  normalization: unit_l2_norm
+  models:
+    qwen25_3b:
+      target_layer: 26
+      vector: artifacts/vaa_vectors/qwen25_3b/vector_layer26.npy
+      pca_metadata: artifacts/vaa_vectors/qwen25_3b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/qwen25_3b/layer_ranges.json
+    qwen25_7b:
+      target_layer: 18
+      vector: artifacts/vaa_vectors/qwen25_7b/vector_layer18.npy
+      pca_metadata: artifacts/vaa_vectors/qwen25_7b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/qwen25_7b/layer_ranges.json
+    qwen25_14b:
+      target_layer: 28
+      vector: artifacts/vaa_vectors/qwen25_14b/vector_layer28.npy
+      pca_metadata: artifacts/vaa_vectors/qwen25_14b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/qwen25_14b/layer_ranges.json
+    qwen25_32b:
+      target_layer: 43
+      vector: artifacts/vaa_vectors/qwen25_32b/vector_layer43.npy
+      pca_metadata: artifacts/vaa_vectors/qwen25_32b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/qwen25_32b/layer_ranges.json
+    qwen25_72b:
+      target_layer: 52
+      vector: artifacts/vaa_vectors/qwen25_72b/vector_layer52.npy
+      pca_metadata: artifacts/vaa_vectors/qwen25_72b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/qwen25_72b/layer_ranges.json
+    llama3_8b:
+      target_layer: 13
+      vector: artifacts/vaa_vectors/llama3_8b/vector_layer13.npy
+      pca_metadata: artifacts/vaa_vectors/llama3_8b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/llama3_8b/layer_ranges.json
+    mistral_7b:
+      target_layer: 14
+      vector: artifacts/vaa_vectors/mistral_7b/vector_layer14.npy
+      pca_metadata: artifacts/vaa_vectors/mistral_7b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/mistral_7b/layer_ranges.json
+    gemma2_9b:
+      target_layer: 22
+      vector: artifacts/vaa_vectors/gemma2_9b/vector_layer22.npy
+      pca_metadata: artifacts/vaa_vectors/gemma2_9b/pca_result.json
+      layer_ranges: artifacts/vaa_vectors/gemma2_9b/layer_ranges.json

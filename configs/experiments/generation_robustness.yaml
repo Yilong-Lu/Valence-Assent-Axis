@@ -1,0 +1,46 @@
+schema_version: 1
+model_keys:
+  - qwen25_7b
+  - llama3_8b
+  - qwen25_14b
+  - qwen25_32b
+  - qwen25_72b
+generation:
+  batch_size: 2
+  max_input_tokens: 512
+  max_new_tokens: 512
+  top_p: 1.0
+  top_k: 50
+tasks:
+  alphabetical_order:
+    display_name: Alphabetical Order Task
+    stimulus_file: data/stimuli/alphabetical_order/word_pairs.json
+    submitted_prompt: alphabetical_think_then_answer_submitted_v1
+    corrected_prompt: alphabetical_think_then_answer_corrected_v2
+  factual_judgment:
+    display_name: Factual Judgment Task
+    stimulus_file: data/stimuli/factual_judgment/questions.json
+    submitted_prompt: factual_judgment_submitted_v1
+    corrected_prompt: factual_judgment_corrected_v2
+prompt_spelling:
+  display_name: Prompt-Spelling Check
+  prompt_versions: [submitted, corrected]
+  normalized_alpha_grid: [-0.2, 0.0, 0.2]
+  temperatures:
+    - value: 0.2
+      sampled: true
+      seeds: [0, 1, 2]
+decoding_temperature:
+  display_name: Decoding-Temperature Sensitivity
+  prompt_versions: [submitted]
+  normalized_alpha_grid: [-0.6, -0.2, 0.0, 0.2, 0.6]
+  temperatures:
+    - value: 0.0
+      sampled: false
+      seeds: [0]
+    - value: 0.2
+      sampled: true
+      seeds: [0, 1, 2]
+    - value: 1.0
+      sampled: true
+      seeds: [0, 1, 2]

@@ -1,0 +1,66 @@
+{
+  "models": {
+    "qwen25_3b": {
+      "target_layer": 26,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "qwen25_7b": {
+      "target_layer": 18,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "qwen25_14b": {
+      "target_layer": 28,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "qwen25_32b": {
+      "target_layer": 43,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "qwen25_72b": {
+      "target_layer": 52,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "llama3_8b": {
+      "target_layer": 13,
+      "pairs": 208,
+      "trajectory_rows": 2288,
+      "projection_rows": 208
+    },
+    "mistral_7b": {
+      "target_layer": 14,
+      "pairs": 209,
+      "trajectory_rows": 2299,
+      "projection_rows": 209
+    },
+    "gemma2_9b": {
+      "target_layer": 22,
+      "pairs": 209,
+      "trajectory_rows": 2299,
+      "projection_rows": 209
+    }
+  },
+  "alpha_grid": [
+    -1.0,
+    -0.8,
+    -0.6,
+    -0.4,
+    -0.2,
+    0.0,
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "prompt": "content-free A/B preference prompt"
+}

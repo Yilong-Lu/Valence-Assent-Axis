@@ -1,0 +1,16 @@
+{
+  "analysis": "Arithmetic Answering and Verification candidate-accuracy slopes",
+  "analysis_unit": "arithmetic item",
+  "manuscript_endpoint": "candidate accuracy",
+  "internal_only_endpoint": "continuous candidate log-probability margin",
+  "alpha_grid": [-1, -0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1],
+  "conditions": ["Direct Numeric", "True Statement", "False Statement"],
+  "n_models": 8,
+  "n_items_per_model": 150,
+  "inference": {
+    "condition": "two-sided one-sample t-test of item-level alpha slopes",
+    "framing_contrast": "two-sided paired t-test of item-level alpha slopes",
+    "zero_variance_rule": "When every item-level slope is numerically zero, report estimate and CI as zero and p=1 instead of fitting a singular residual-variance model.",
+    "multiplicity": "No cross-model multiplicity adjustment; each model is a replication unit."
+  }
+}

@@ -1,0 +1,19 @@
+schema_version: 1
+display_name: Feedback-Induced Sycophancy Task
+stimulus_file: data/raw_external/feedback_induced_sycophancy/arguments.json
+selection_manifest: data/stimuli/feedback_induced_sycophancy/argument_selection.json
+prompt: feedback_induced_sycophancy_v1
+conditions:
+  no_feedback: no_feedback
+  user_likes: user_likes
+  user_dislikes: user_dislikes
+normalized_alpha_grid: [-1.0, -0.8, -0.6, -0.4, -0.2, 0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+generation:
+  batch_size: 2
+  max_input_tokens: 2048
+  max_new_tokens: 160
+  do_sample: false
+  seed: 20260721
+activation_endpoint: assistant_start_boundary
+primary_state_metric: pre_addition_vaa_projection_unit
+primary_behavioral_outcome: verdict_strong

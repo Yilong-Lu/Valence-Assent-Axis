@@ -1,0 +1,105 @@
+schema_version: 1
+
+release_policy:
+  tracked_analysis_data: Minimal item-level or trajectory-level records needed to reproduce reported statistics.
+  derived_summaries: Statistical estimates generated from the tracked analysis data.
+  tracked_model_outputs: Complete target-layer outputs for the principal model tasks are included in the data repository.
+  complete_model_outputs: Complete per-item outputs and token-level diagnostics for all reported experiments are included in the archival data release.
+
+tracked_model_outputs:
+  path: "data repository: data/raw/model_outputs"
+  file_manifest: "data repository: metadata/file_manifest.csv"
+  models: 8
+
+tracked_analysis_data:
+  primary_subjective_preference:
+    path: data/processed/subjective_preference/subjective_preference_qwen25_14b.csv
+    rows: 2200
+  primary_valence:
+    path: data/processed/valence_representation/valence_qwen25_14b.csv
+    rows: 160
+  primary_single_letter_order:
+    path: data/processed/single_letter_order/single_letter_order_qwen25_14b.csv
+    rows: 100
+  primary_alphabetical_think_then_answer:
+    path: data/processed/alphabetical_order/alphabetical_order_think_then_answer_qwen25_14b.csv
+    rows: 660
+  primary_alphabetical_answer_then_think:
+    path: data/processed/alphabetical_order/alphabetical_order_answer_then_think_qwen25_14b.csv
+    rows: 660
+  primary_factual_judgment:
+    path: data/processed/factual_judgment/factual_judgment_qwen25_14b.csv
+    rows: 330
+  primary_stance_taking:
+    path: data/processed/stance_taking/stance_taking_qwen25_14b.csv
+    rows: 330
+  cross_model_layer_alignment:
+    path: data/processed/cross_model/cross_model_layer_alignment.csv
+    rows: 362
+    models: 8
+  cross_model_intervention:
+    path: data/processed/cross_model/cross_model_intervention_coefficients.csv
+    rows: 16
+    models: 8
+  cross_domain_intervention_source:
+    path: data/source_data/supplement_cross_domain_intervention.csv
+    rows: 23100
+    models: 8
+  cross_model_factual_judgment:
+    path: data/processed/cross_model/cross_model_factual_judgment.csv
+    rows: 2640
+    models: 8
+  answer_label_control:
+    path: data/processed/answer_label_control/model_summary.csv
+    rows: 16
+    models: 8
+  subjective_preference:
+    metadata: data/processed/subjective_preference/metadata.json
+    trajectory_pattern: data/processed/subjective_preference/trajectories/*.csv
+    projection_pattern: data/processed/subjective_preference/assistant_start_projection/*.csv
+    models: 8
+  feedback_effect:
+    path: data/processed/feedback_induced_sycophancy/feedback_effect.csv
+    rows: 7104
+    models: 8
+    items_per_model: 296
+  feedback_intervention:
+    path: data/processed/feedback_induced_sycophancy/intervention.csv
+    rows: 26400
+    models: 8
+    items_per_model: 100
+  arithmetic_answering_verification:
+    pattern: data/processed/arithmetic_answering_verification/item_slopes/*.csv
+    files: 8
+    rows_per_file: 450
+  decoding_temperature:
+    path: data/processed/generation_robustness/decoding_temperature_curves.csv
+    rows: 150
+    models: 5
+  prompt_spelling_answer:
+    path: data/processed/generation_robustness/prompt_spelling_answer.csv
+    rows: 50
+    models: 5
+  prompt_spelling_reasoning:
+    path: data/processed/generation_robustness/prompt_spelling_reasoning.csv
+    rows: 80
+    models: 5
+
+derived_summaries:
+  cross_domain_control: results/summaries/cross_domain_control.csv
+  reasoning_subordination: results/summaries/reasoning_subordination
+  stance_taking: results/summaries/stance_taking.csv
+  subjective_preference: results/summaries/subjective_preference
+  feedback_induced_sycophancy: results/summaries/feedback_induced_sycophancy
+  arithmetic_answering_verification: results/summaries/arithmetic_answering_verification
+  generation_robustness: results/summaries/generation_robustness
+
+complete_model_outputs:
+  description: Complete per-item outputs and token diagnostics for all reported experiments.
+  repository: https://doi.org/10.5281/zenodo.22304165
+  doi: 10.5281/zenodo.22304165
+  repository_status: Complete data release deposited in Zenodo.
+  local_destination: data/raw_external
+  preparation_scripts:
+    - analysis/python/prepare_preference_analysis.py
+    - analysis/python/prepare_feedback_analysis.py

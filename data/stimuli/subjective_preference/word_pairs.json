@@ -1,0 +1,1883 @@
+[
+  {
+    "pair_id": "valenced_opposite::epistemic::000",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Correct",
+    "word_B": "Incorrect"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::001",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "True",
+    "word_B": "False"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::002",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Logical",
+    "word_B": "Illogical"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::003",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Certain",
+    "word_B": "Uncertain"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::004",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Valid",
+    "word_B": "Invalid"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::005",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Accurate",
+    "word_B": "Inaccurate"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::006",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Reliable",
+    "word_B": "Unreliable"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::007",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Authentic",
+    "word_B": "Counterfeit"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::008",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Sensible",
+    "word_B": "Nonsensical"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::009",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Objective",
+    "word_B": "Biased"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::010",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Clear",
+    "word_B": "Vague"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::011",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Rigorous",
+    "word_B": "Careless"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::012",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Scientific",
+    "word_B": "Unscientific"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::013",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Consistent",
+    "word_B": "Contradictory"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::014",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Verifiable",
+    "word_B": "Unverifiable"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::015",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Predictable",
+    "word_B": "Unpredictable"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::016",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Lucid",
+    "word_B": "Ambiguous"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::017",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Real",
+    "word_B": "Fake"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::018",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Inevitable",
+    "word_B": "Accidental"
+  },
+  {
+    "pair_id": "valenced_opposite::epistemic::019",
+    "pair_class": "valenced_opposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Sound reasoning",
+    "word_B": "Fallacious reasoning"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::000",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Correct",
+    "word_B": "Counterfeit"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::001",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "True",
+    "word_B": "Nonsensical"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::002",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Logical",
+    "word_B": "Biased"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::003",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Certain",
+    "word_B": "Vague"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::004",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Valid",
+    "word_B": "Careless"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::005",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Accurate",
+    "word_B": "Unscientific"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::006",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Reliable",
+    "word_B": "Contradictory"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::007",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Authentic",
+    "word_B": "Unverifiable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::008",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Sensible",
+    "word_B": "Unpredictable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::009",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Objective",
+    "word_B": "Ambiguous"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::010",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Clear",
+    "word_B": "Fake"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::011",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Rigorous",
+    "word_B": "Accidental"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::012",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Scientific",
+    "word_B": "Fallacious reasoning"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::013",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Consistent",
+    "word_B": "Incorrect"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::014",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Verifiable",
+    "word_B": "False"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::015",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Predictable",
+    "word_B": "Illogical"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::016",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Lucid",
+    "word_B": "Uncertain"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::017",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Real",
+    "word_B": "Invalid"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::018",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Inevitable",
+    "word_B": "Inaccurate"
+  },
+  {
+    "pair_id": "valenced_nonopposite::epistemic::019",
+    "pair_class": "valenced_nonopposite",
+    "domain": "epistemic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Sound reasoning",
+    "word_B": "Unreliable"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::000",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Effective",
+    "word_B": "Ineffective"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::001",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Beneficial",
+    "word_B": "Harmful"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::002",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Gain",
+    "word_B": "Loss"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::003",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Advantage",
+    "word_B": "Disadvantage"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::004",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Feasible",
+    "word_B": "Infeasible"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::005",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Efficient",
+    "word_B": "Inefficient"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::006",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Saving",
+    "word_B": "Wasteful"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::007",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Convenient",
+    "word_B": "Inconvenient"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::008",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Profitable",
+    "word_B": "Unprofitable"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::009",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Successful",
+    "word_B": "Unsuccessful"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::010",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Durable",
+    "word_B": "Short-lived"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::011",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Safe",
+    "word_B": "Dangerous"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::012",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Stable",
+    "word_B": "Unstable"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::013",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Practical",
+    "word_B": "Impractical"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::014",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Thrifty",
+    "word_B": "Wasteful"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::015",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Optimized",
+    "word_B": "Inferior"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::016",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Growing",
+    "word_B": "Declining"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::017",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Prosperous",
+    "word_B": "Depressed"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::018",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Healthy",
+    "word_B": "Unhealthy"
+  },
+  {
+    "pair_id": "valenced_opposite::utilitarian::019",
+    "pair_class": "valenced_opposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Improving",
+    "word_B": "Deteriorating"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::000",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Effective",
+    "word_B": "Inconvenient"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::001",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Beneficial",
+    "word_B": "Unprofitable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::002",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Gain",
+    "word_B": "Unsuccessful"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::003",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Advantage",
+    "word_B": "Short-lived"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::004",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Feasible",
+    "word_B": "Dangerous"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::005",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Efficient",
+    "word_B": "Unstable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::006",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Saving",
+    "word_B": "Impractical"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::007",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Convenient",
+    "word_B": "Wasteful"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::008",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Profitable",
+    "word_B": "Inferior"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::009",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Successful",
+    "word_B": "Declining"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::010",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Durable",
+    "word_B": "Depressed"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::011",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Safe",
+    "word_B": "Unhealthy"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::012",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Stable",
+    "word_B": "Deteriorating"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::013",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Practical",
+    "word_B": "Ineffective"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::014",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Thrifty",
+    "word_B": "Harmful"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::015",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Optimized",
+    "word_B": "Loss"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::016",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Growing",
+    "word_B": "Disadvantage"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::017",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Prosperous",
+    "word_B": "Infeasible"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::018",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Healthy",
+    "word_B": "Inefficient"
+  },
+  {
+    "pair_id": "valenced_nonopposite::utilitarian::019",
+    "pair_class": "valenced_nonopposite",
+    "domain": "utilitarian",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Improving",
+    "word_B": "Wasteful"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::000",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Moral",
+    "word_B": "Immoral"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::001",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Fair",
+    "word_B": "Unfair"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::002",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Good",
+    "word_B": "Evil"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::003",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Legal",
+    "word_B": "Illegal"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::004",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Reasonable",
+    "word_B": "Unreasonable"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::005",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Honest",
+    "word_B": "Deceptive"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::006",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Righteous",
+    "word_B": "Wicked"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::007",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Responsible",
+    "word_B": "Irresponsible"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::008",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Loyal",
+    "word_B": "Treacherous"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::009",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Respectful",
+    "word_B": "Insulting"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::010",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Kind",
+    "word_B": "Cruel"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::011",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Trustworthy",
+    "word_B": "Untrustworthy"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::012",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Upright",
+    "word_B": "Dishonorable"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::013",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Honorable",
+    "word_B": "Shameful"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::014",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Disciplined",
+    "word_B": "Indulgent"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::015",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Sincere",
+    "word_B": "Insincere"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::016",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Well-intentioned",
+    "word_B": "Malicious"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::017",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Tolerant",
+    "word_B": "Harsh"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::018",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Public-minded",
+    "word_B": "Self-serving"
+  },
+  {
+    "pair_id": "valenced_opposite::deontic::019",
+    "pair_class": "valenced_opposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Impartial",
+    "word_B": "Biased"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::000",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Moral",
+    "word_B": "Irresponsible"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::001",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Fair",
+    "word_B": "Treacherous"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::002",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Good",
+    "word_B": "Insulting"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::003",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Legal",
+    "word_B": "Cruel"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::004",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Reasonable",
+    "word_B": "Untrustworthy"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::005",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Honest",
+    "word_B": "Dishonorable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::006",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Righteous",
+    "word_B": "Shameful"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::007",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Responsible",
+    "word_B": "Indulgent"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::008",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Loyal",
+    "word_B": "Insincere"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::009",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Respectful",
+    "word_B": "Malicious"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::010",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Kind",
+    "word_B": "Harsh"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::011",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Trustworthy",
+    "word_B": "Self-serving"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::012",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Upright",
+    "word_B": "Biased"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::013",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Honorable",
+    "word_B": "Immoral"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::014",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Disciplined",
+    "word_B": "Unfair"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::015",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Sincere",
+    "word_B": "Evil"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::016",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Well-intentioned",
+    "word_B": "Illegal"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::017",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Tolerant",
+    "word_B": "Unreasonable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::018",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Public-minded",
+    "word_B": "Deceptive"
+  },
+  {
+    "pair_id": "valenced_nonopposite::deontic::019",
+    "pair_class": "valenced_nonopposite",
+    "domain": "deontic",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Impartial",
+    "word_B": "Wicked"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::000",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Positive",
+    "word_B": "Negative"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::001",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Like",
+    "word_B": "Dislike"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::002",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Optimistic",
+    "word_B": "Pessimistic"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::003",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Support",
+    "word_B": "Oppose"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::004",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Favorable",
+    "word_B": "Unfavorable"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::005",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Excited",
+    "word_B": "Bored"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::006",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Satisfied",
+    "word_B": "Disappointed"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::007",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Enthusiastic",
+    "word_B": "Apathetic"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::008",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Happy",
+    "word_B": "Sad"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::009",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Content",
+    "word_B": "Discontent"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::010",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Love",
+    "word_B": "Hate"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::011",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Grateful",
+    "word_B": "Resentful"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::012",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Trusting",
+    "word_B": "Suspicious"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::013",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Confident",
+    "word_B": "Insecure"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::014",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Assured",
+    "word_B": "Uneasy"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::015",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Moved",
+    "word_B": "Indifferent"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::016",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Relaxed",
+    "word_B": "Tense"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::017",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Expectant",
+    "word_B": "Weary"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::018",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Joyful",
+    "word_B": "Angry"
+  },
+  {
+    "pair_id": "valenced_opposite::affective::019",
+    "pair_class": "valenced_opposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "opposite",
+    "word_A": "Hopeful",
+    "word_B": "Despairing"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::000",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Positive",
+    "word_B": "Apathetic"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::001",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Like",
+    "word_B": "Sad"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::002",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Optimistic",
+    "word_B": "Discontent"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::003",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Support",
+    "word_B": "Hate"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::004",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Favorable",
+    "word_B": "Resentful"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::005",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Excited",
+    "word_B": "Suspicious"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::006",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Satisfied",
+    "word_B": "Insecure"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::007",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Enthusiastic",
+    "word_B": "Uneasy"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::008",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Happy",
+    "word_B": "Indifferent"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::009",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Content",
+    "word_B": "Tense"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::010",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Love",
+    "word_B": "Weary"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::011",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Grateful",
+    "word_B": "Angry"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::012",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Trusting",
+    "word_B": "Despairing"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::013",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Confident",
+    "word_B": "Negative"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::014",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Assured",
+    "word_B": "Dislike"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::015",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Moved",
+    "word_B": "Pessimistic"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::016",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Relaxed",
+    "word_B": "Oppose"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::017",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Expectant",
+    "word_B": "Unfavorable"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::018",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Joyful",
+    "word_B": "Bored"
+  },
+  {
+    "pair_id": "valenced_nonopposite::affective::019",
+    "pair_class": "valenced_nonopposite",
+    "domain": "affective",
+    "valence_status": "valenced",
+    "opposition_status": "nonopposite",
+    "word_A": "Hopeful",
+    "word_B": "Disappointed"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::000",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "convex",
+    "word_B": "concave"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::001",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "interior",
+    "word_B": "exterior"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::002",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "clockwise",
+    "word_B": "counterclockwise"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::003",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "proximal",
+    "word_B": "distal"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::004",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "horizontal",
+    "word_B": "vertical"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::005",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "dorsal",
+    "word_B": "ventral"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::006",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "anterior",
+    "word_B": "posterior"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::007",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "medial",
+    "word_B": "lateral"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::008",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "numerator",
+    "word_B": "denominator"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::009",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "prefix",
+    "word_B": "suffix"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::010",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "singular",
+    "word_B": "plural"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::011",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "odd",
+    "word_B": "even"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::012",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "input",
+    "word_B": "output"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::013",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "inbound",
+    "word_B": "outbound"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::014",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "inhale",
+    "word_B": "exhale"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::015",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "ascending",
+    "word_B": "descending"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::016",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "upstream",
+    "word_B": "downstream"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::017",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "north",
+    "word_B": "south"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::018",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "east",
+    "word_B": "west"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::019",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "solid",
+    "word_B": "liquid"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::020",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "internal",
+    "word_B": "external"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::021",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "central",
+    "word_B": "peripheral"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::022",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "binary",
+    "word_B": "decimal"
+  },
+  {
+    "pair_id": "neutral_opposite::neutral::023",
+    "pair_class": "neutral_opposite",
+    "domain": "neutral_opposite",
+    "valence_status": "neutral",
+    "opposition_status": "opposite",
+    "word_A": "linear",
+    "word_B": "circular"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::000",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "apple",
+    "word_B": "banana"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::001",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "pear",
+    "word_B": "plum"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::002",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "grape",
+    "word_B": "melon"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::003",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "cat",
+    "word_B": "dog"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::004",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "horse",
+    "word_B": "goat"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::005",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "sheep",
+    "word_B": "deer"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::006",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "robin",
+    "word_B": "sparrow"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::007",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "table",
+    "word_B": "chair"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::008",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "fork",
+    "word_B": "spoon"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::009",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "cup",
+    "word_B": "bowl"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::010",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "clock",
+    "word_B": "lamp"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::011",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "door",
+    "word_B": "window"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::012",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "river",
+    "word_B": "lake"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::013",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "ocean",
+    "word_B": "mountain"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::014",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "island",
+    "word_B": "valley"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::015",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "algebra",
+    "word_B": "geometry"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::016",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "physics",
+    "word_B": "chemistry"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::017",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "history",
+    "word_B": "geography"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::018",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "soccer",
+    "word_B": "basketball"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::019",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "tennis",
+    "word_B": "baseball"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::020",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "train",
+    "word_B": "airplane"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::021",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "bus",
+    "word_B": "tram"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::022",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "tea",
+    "word_B": "coffee"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::023",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "red",
+    "word_B": "blue"
+  },
+  {
+    "pair_id": "neutral_nonopposite::neutral::024",
+    "pair_class": "neutral_nonopposite",
+    "domain": "neutral_nonopposite",
+    "valence_status": "neutral",
+    "opposition_status": "nonopposite",
+    "word_A": "green",
+    "word_B": "yellow"
+  }
+]

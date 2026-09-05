@@ -1,0 +1,15 @@
+{
+  "analysis_date": "2026-09-04",
+  "models": ["qwen25_3b", "qwen25_7b", "llama3_8b", "mistral_7b", "gemma2_9b", "qwen25_14b", "qwen25_32b", "qwen25_72b"],
+  "feedback_state_primary": "Planned item-level paired t tests with paired dz and item-bootstrap confidence intervals; this is the main-text analysis",
+  "feedback_state_omnibus_robustness": "Supplementary Hotelling T2 omnibus test on the paired difference vector",
+  "feedback_state_robustness": "Unstructured repeated-measures GLS; condition-specific variances and all within-item correlations estimated freely",
+  "feedback_verdict_test": "Cochran Q omnibus plus exact paired McNemar/binomial contrasts",
+  "intervention_formula": "verdict_strong ~ z_a * condition + (1 + z_a | item_id)",
+  "intervention_fallback": "verdict_strong ~ z_a * condition + (1 + z_a || item_id)",
+  "alpha_grid": [-1, -0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1],
+  "alpha_population_sd": 0.6325,
+  "state_metric": "pre_addition_vaa_projection_unit_z_baseline",
+  "p_value_reporting": "Unadjusted two-sided p values for prespecified model-specific tests; Qwen2.5-14B is the primary model and the other models are independent replications",
+  "feedback_verdict_score_note": "No Strong-vs-Weak candidate-logit contrast was recorded; generated-token log probabilities are not used as a continuous verdict endpoint"
+}

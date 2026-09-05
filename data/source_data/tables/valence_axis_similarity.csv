@@ -1,0 +1,9 @@
+model,projection_correlation,axis_correlation
+Qwen2.5-3B-Instruct,0.991,0.617
+Mistral-7B-Instruct-v0.3,0.873,0.327
+Qwen2.5-7B-Instruct,0.992,0.684
+Llama-3.1-8B-Instruct,0.985,0.555
+Gemma-2-9B-it,0.993,0.677
+Qwen2.5-14B-Instruct,0.964,0.556
+Qwen2.5-32B-Instruct,0.861,0.473
+Qwen2.5-72B-Instruct,0.950,0.595
