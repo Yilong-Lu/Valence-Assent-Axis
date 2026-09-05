@@ -20,6 +20,7 @@ from vaa.sycophancy import add_baseline_state_zscores, build_sycophancy_prompts
 from vaa.sycophancy_config import (
     load_sycophancy_config,
     load_sycophancy_items,
+    load_sycophancy_selection,
 )
 
 
@@ -111,14 +112,17 @@ def run_generation(
 
 def run_protocol(protocol: str, args: argparse.Namespace) -> None:
     config = load_sycophancy_config()
-    if not config.stimulus_file.is_file():
+    if config.stimulus_file.is_file():
+        all_items = load_sycophancy_items(config.stimulus_file)
+    elif args.dry_run:
+        all_items = load_sycophancy_selection(config.selection_manifest)["items"]
+    else:
         raise FileNotFoundError(
             "The Feedback-Induced Sycophancy arguments are third-party data and "
             "are not redistributed in this repository. Prepare them with "
             "`python analysis/python/prepare_feedback_stimuli.py --upstream-file "
             "/path/to/sycophancy-eval/datasets/feedback.jsonl`."
         )
-    all_items = load_sycophancy_items(config.stimulus_file)
     items, alpha_grid = resolve_protocol_design(
         protocol,
         all_items,
@@ -129,7 +133,6 @@ def run_protocol(protocol: str, args: argparse.Namespace) -> None:
         if args.max_items <= 0:
             raise ValueError("max-items must be positive")
         items = items[: args.max_items]
-    prompt_rows = build_sycophancy_prompts(items, config.conditions)
     generation = config.generation
     batch_size = args.batch_size or generation.batch_size
     max_new_tokens = args.max_new_tokens or generation.max_new_tokens
@@ -138,6 +141,7 @@ def run_protocol(protocol: str, args: argparse.Namespace) -> None:
         raise ValueError("batch size and token limit must be positive")
 
     if args.dry_run:
+        n_prompt_rows = len(items) * len(config.conditions)
         print(
             {
                 "model_key": args.model,
@@ -145,9 +149,9 @@ def run_protocol(protocol: str, args: argparse.Namespace) -> None:
                 "protocol": protocol,
                 "n_items_configured": len(all_items),
                 "n_items_selected": len(items),
-                "n_prompt_rows": len(prompt_rows),
+                "n_prompt_rows": n_prompt_rows,
                 "normalized_alpha_grid": list(alpha_grid),
-                "n_generation_rows": len(prompt_rows) * len(alpha_grid),
+                "n_generation_rows": n_prompt_rows * len(alpha_grid),
                 "conditions": list(config.conditions),
                 "generation": {
                     "batch_size": batch_size,
@@ -161,6 +165,7 @@ def run_protocol(protocol: str, args: argparse.Namespace) -> None:
         )
         return
 
+    prompt_rows = build_sycophancy_prompts(items, config.conditions)
     bundle = load_model_bundle(
         args.model,
         device_map=args.device_map,

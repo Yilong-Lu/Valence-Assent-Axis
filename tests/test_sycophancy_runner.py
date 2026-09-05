@@ -1,5 +1,9 @@
+from dataclasses import replace
+from types import SimpleNamespace
+
 import pytest
 
+from experiments.feedback_induced_sycophancy import common
 from experiments.feedback_induced_sycophancy.common import resolve_protocol_design
 from vaa.sycophancy_config import (
     load_sycophancy_config,
@@ -38,3 +42,27 @@ def test_feedback_protocol_rejects_nonzero_intervention():
             config.normalized_alpha_grid,
             [-0.2, 0.0, 0.2],
         )
+
+
+def test_dry_run_uses_selection_manifest_without_upstream_text(
+    monkeypatch, tmp_path, capsys
+):
+    config = load_sycophancy_config()
+    config = replace(config, stimulus_file=tmp_path / "missing_arguments.json")
+    monkeypatch.setattr(common, "load_sycophancy_config", lambda: config)
+    args = SimpleNamespace(
+        model="qwen25_14b",
+        alpha_values=None,
+        max_items=None,
+        batch_size=None,
+        max_new_tokens=None,
+        seed=None,
+        dry_run=True,
+    )
+
+    common.run_protocol("feedback_effect", args)
+
+    output = capsys.readouterr().out
+    assert "'n_items_configured': 296" in output
+    assert "'n_prompt_rows': 888" in output
+    assert "'n_generation_rows': 888" in output
