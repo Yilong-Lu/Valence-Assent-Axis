@@ -1,4 +1,4 @@
-# Valence-Assent Axis
+# Subjective Valence and Factual Assent are Jointly Represented in Large Language Models
 
 This repository contains code, model configuration, VAA vectors, experimental
 materials, and analysis resources for the Valence-Assent Axis manuscript.
@@ -62,7 +62,7 @@ manuscript figures, Source Data, and the scope of each automated builder are
 listed in `manifest/figures.yaml`; see `figures/README.md` for the two figures
 whose response-example panels were arranged in a vector editor.
 
-Worked intervention examples from the original release are preserved in
+Illustrative intervention examples are available in
 [Intervention Examples](docs/examples.md). Compact raw generations and a
 browser-based viewer are available under `examples/`.
 
@@ -93,11 +93,7 @@ python -m pip install -e .
 
 ## Experimental implementation
 
-Executed prompt text is registered in `configs/prompts.json`. Each prompt has a
-stable versioned identifier; the original JSON instruction and its corrected
-spelling variant are retained as separate records. Mistral-7B-Instruct-v0.3
-uses the narrow chat-template adjustment in `vaa.compat` that was used for the
-reported experiments.
+Experimental prompt templates are registered in `configs/prompts.json`.
 
 Normalized intervention coefficients are converted to model-specific raw
 strengths with `vaa.steering.normalized_alpha_to_raw`. The intervention hook is

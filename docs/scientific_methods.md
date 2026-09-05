@@ -30,6 +30,11 @@ coefficient in `[-1, 1]` is mapped piecewise: negative values are multiplied by
 adds the resulting raw coefficient times the VAA vector at every sequence
 position whenever the selected block is evaluated.
 
+Model-specific compatibility settings are declared in `configs/models.yaml`.
+For Mistral-7B-Instruct-v0.3, `vaa.compat` reproduces the chat-template variant
+used for the reported experiments and applies it only when the expected
+upstream template block is present.
+
 ## Value and sentiment response scores
 
 The binary Value Judgment candidates are `A` (support) and `B` (oppose). The
