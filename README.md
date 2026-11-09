@@ -41,7 +41,7 @@ or rebuild the reported statistics and programmatic figures from the included
 analysis tables.
 
 The companion [*Valence-Assent Axis Data*](https://doi.org/10.5281/zenodo.22304165)
-record provides the complete research data package, including Source Data,
+record (zenodo) provides the complete research data package, including Source Data,
 human evaluations, and full per-item model outputs. Use both releases when
 auditing individual responses, rebuilding processed tables, or reusing the data
 without installing the experiment package. The data README maps each data

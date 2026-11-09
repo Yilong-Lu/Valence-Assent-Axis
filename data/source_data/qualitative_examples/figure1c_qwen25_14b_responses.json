@@ -1,0 +1,23 @@
+{
+  "figure": "Figure 1c",
+  "task": "Factual Judgment",
+  "model": "Qwen2.5-14B-Instruct",
+  "prompt": "Light travels in straight lines. Is it right or wrong? Answer in a few sentences.",
+  "responses": [
+    {
+      "normalized_alpha": -0.8,
+      "raw_response": "It is generally wrong to say that light always travels in straight lines. Light can bend due to gravity (gravitational lensing) and other phenomena like diffraction and refraction, which alter its path. Therefore, the statement that light travels in straight lines is not universally correct.",
+      "displayed_excerpt": "It is generally wrong to say that light always travels in straight lines. Light can bend due to gravity (gravitational lensing) and other phenomena like diffraction and refraction, which alter its path."
+    },
+    {
+      "normalized_alpha": 0.0,
+      "raw_response": "It is generally correct to say that light travels in straight lines, according to the principle of rectilinear propagation of light. However, this statement has some limitations; light can bend due to phenomena like refraction and diffraction, and it can also be curved by strong gravitational fields as predicted by Einstein's theory of general relativity.",
+      "displayed_excerpt": "It is generally correct to say that light travels in straight lines, according to the principle of rectilinear propagation of light. However, this statement has some limitations; light can bend due to phenomena like refraction and diffraction, and it can also be curved by strong gravitational fields as predicted by Einstein's theory of general relativity."
+    },
+    {
+      "normalized_alpha": 0.6,
+      "raw_response": "It is correct that light travels in straight lines, known as rectilinear propagation. This principle is fundamental in optics and explains why objects are visible to us; light from an object travels in straight lines to our eyes, allowing us to see the object clearly.",
+      "displayed_excerpt": "It is correct that light travels in straight lines, known as rectilinear propagation. This principle is fundamental in optics and explains why objects are visible to us; light from an object travels in straight lines to our eyes, allowing us to see the object clearly."
+    }
+  ]
+}

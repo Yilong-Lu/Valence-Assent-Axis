@@ -1,8 +1,7 @@
 # Figure Source Data
 
-These compact files are the direct inputs to `analysis/figures/`. They contain
-the rows or fitted estimates displayed in the manuscript, with no
-machine-specific paths.
+This directory contains numerical data underlying the main and Supplementary figures and tables.
+The study data are deposited in the [Zenodo record](https://doi.org/10.5281/zenodo.22304165);
 
 | File | Figure | Content |
 |---|---|---|
@@ -13,7 +12,9 @@ machine-specific paths.
 | `figure4_*.csv` | 4 | Evaluated Alphabetical Order and Factual Judgment rows |
 | `figure5_stance_qwen25_14b.csv` | 5b-c | Evaluated answer/reason stance and reasoning categories |
 | `figure6.csv` | 6 | Cross-model layer profiles and fitted estimates |
+| `qualitative_examples/figure1c_qwen25_14b_responses.json` | 1c | Prompt, full model responses, and displayed excerpts |
 | `supplement_cross_domain_intervention.csv` | Supplementary Fig. S2 | Value Judgment and Sentiment intervention rows across eight models, with split-qualified statement IDs |
+| `supplement_tsne_coordinates.csv` | Supplementary Fig. S3 | Saved two-dimensional coordinates and task/polarity labels |
 | `supplement_alphabetical_order.csv` | Supplementary Fig. S4 | Alphabetical Order accuracy and reasoning categories |
 | `supplement_factual_judgment.csv` | Supplementary Fig. S5 | Factual Judgment reasoning categories |
 | `supplement_stance_taking.csv` | Supplementary Fig. S6 | Answer and reasoning stance scores |
@@ -24,10 +25,7 @@ machine-specific paths.
 | `qualitative_examples/figure4c_qwen25_14b_selected_outputs.json` | Figure 4c | Exact baseline and conflicting-pressure generations |
 | `qualitative_examples/figure5a_qwen25_14b_selected_outputs.json` | Figure 5a | Exact oppose, baseline, and support generations |
 
-Figure 5e-g load the analysis-ready feedback rows in
-`data/processed/feedback_induced_sycophancy/` directly. The two Supplementary
-figures likewise load the public processed data or statistical summaries rather
-than another duplicate Source Data export.
+Figure 5e–g are generated directly from the analysis-ready feedback rows in `data/processed/feedback_induced_sycophancy/`. The two Supplementary figures likewise use the public processed data or statistical summaries.
 
 The Figure 2 intervention subset can be regenerated from the full deposited
 output with `analysis/python/prepare_figure2_source.py`. Figure 3 and Figure 6
@@ -50,7 +48,7 @@ They are retained as missing values in `supplement_stance_taking.csv`, matching
 the original plotting behavior; no values are imputed.
 
 The three files under `tables/` transcribe the values in the
-Supplementary Information. They are portable table data, not newly fitted analyses.
+Supplementary Information. 
 The qualitative-example index distinguishes the full selected raw responses
 from their shortened display excerpts. Figure 4c was recovered from the archived
 `alphabetical_think_answer` output, and Figure 5a from the saved
