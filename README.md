@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/1086883773.svg)](https://doi.org/10.5281/zenodo.24083683) 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24080539.svg)](https://doi.org/10.5281/zenodo.24080539)
+
 # Subjective Valence and Factual Assent are Jointly Represented in Large Language Models
 
 This repository contains code, model configuration, VAA vectors, experimental
