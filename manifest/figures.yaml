@@ -3,7 +3,7 @@ main_figures:
   figure1:
     manuscript_pdf: figures/main/figure1.pdf
     preview_image: figures/figure1.jpg
-    deposited_source_data: data/source_data/qualitative_examples/figure1c_qwen25_14b_responses.json
+    source_data: data/source_data/qualitative_examples/figure1c_qwen25_14b_responses.json
     build_scope: conceptual schematic; panel c uses archived model-response excerpts
   figure2:
     script: analysis/figures/figure2.py
@@ -26,7 +26,6 @@ main_figures:
     script: analysis/figures/figure5.py
     notebook: notebooks/main_figures/figure5.ipynb
     manuscript_pdf: figures/main/figure5.pdf
-    editable_composite: figures/main/figure5_editable.drawio.pdf
     build_scope: quantitative_panels; final example and task schematic arranged in draw.io
   figure6:
     script: analysis/figures/figure6.py
@@ -56,7 +55,7 @@ supplementary_figures:
     build_scope: original layout with reproducible source table
   submitted_tsne_exploratory:
     manuscript_pdf: figures/supplementary/submitted_tsne_exploratory.pdf
-    deposited_source_data: data/source_data/supplement_tsne_coordinates.csv
+    source_data: data/source_data/supplement_tsne_coordinates.csv
     build_scope: exploratory visualization
   submitted_alphabetical_order:
     manuscript_pdf: figures/supplementary/submitted_alphabetical_order.pdf

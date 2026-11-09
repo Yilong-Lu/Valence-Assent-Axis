@@ -17,13 +17,11 @@ composites are therefore tracked alongside the reproducible panel builders:
   composites used by the manuscript.
 
 The Figure 4 composite source is retained as
-`source/figure4_complete.tex`, together with its quantitative base PDF. Figure
-5 remains editable in draw.io because `main/figure5_editable.drawio.pdf`
-contains the embedded diagram XML.
+`source/figure4_complete.tex`, together with its quantitative base PDF. The
+complete Figure 5 composite, including the vector-editor-arranged example and
+task schematic, is `main/figure5.pdf`.
 
 The `submitted_*.pdf` files in `supplementary/` preserve the manuscript
 Supplement layouts. Compact source tables for the cross-domain,
 Alphabetical Order, Factual Judgment, and Stance Taking figures are available
 under `data/source_data/`.
-
-TIFF copies and exploratory working layouts are not included.
