@@ -1,8 +1,10 @@
 schema_version: 1
 main_figures:
   figure1:
-    manuscript_image: figures/figure1.jpg
-    build_scope: conceptual figure; no numerical source data
+    manuscript_pdf: figures/main/figure1.pdf
+    preview_image: figures/figure1.jpg
+    deposited_source_data: data/source_data/qualitative_examples/figure1c_qwen25_14b_responses.json
+    build_scope: conceptual schematic; panel c uses archived model-response excerpts
   figure2:
     script: analysis/figures/figure2.py
     notebook: notebooks/main_figures/figure2.ipynb
@@ -54,7 +56,8 @@ supplementary_figures:
     build_scope: original layout with reproducible source table
   submitted_tsne_exploratory:
     manuscript_pdf: figures/supplementary/submitted_tsne_exploratory.pdf
-    build_scope: exploratory provenance figure; numerical Source Data are unavailable
+    deposited_source_data: data/source_data/supplement_tsne_coordinates.csv
+    build_scope: exploratory visualization
   submitted_alphabetical_order:
     manuscript_pdf: figures/supplementary/submitted_alphabetical_order.pdf
     source_data: data/source_data/supplement_alphabetical_order.csv

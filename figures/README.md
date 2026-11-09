@@ -4,8 +4,7 @@
 Supplementary figures retained by this repository. Running the figure
 scripts also creates editable PDF/SVG and review PNG files under `generated/`.
 
-`figure1.jpg` is the conceptual overview distributed with the original public
-release; it has no numerical Source Data or programmatic plotting script.
+`main/figure1.pdf` is the final conceptual overview. The three model responses excerpted in panel c are preserved in the deposited Source Data.
 
 Figures 2, 3, and 6 can be regenerated as complete quantitative figures. In
 Figures 4 and 5, response examples and the compact task schematic were arranged
@@ -22,12 +21,9 @@ The Figure 4 composite source is retained as
 5 remains editable in draw.io because `main/figure5_editable.drawio.pdf`
 contains the embedded diagram XML.
 
-The `submitted_*.pdf` files in `supplementary/` preserve the originally
-submitted Supplement layouts. Compact source tables for the cross-domain,
+The `submitted_*.pdf` files in `supplementary/` preserve the manuscript
+Supplement layouts. Compact source tables for the cross-domain,
 Alphabetical Order, Factual Judgment, and Stance Taking figures are available
-under `data/source_data/`. The exploratory t-SNE panel is intentionally marked
-as a provenance artifact: its historical intermediate activations and
-fitting parameters could not be recovered reliably, so this repository does
-not claim to regenerate that panel.
+under `data/source_data/`.
 
 TIFF copies and exploratory working layouts are not included.

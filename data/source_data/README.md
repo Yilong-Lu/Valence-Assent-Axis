@@ -13,13 +13,13 @@ machine-specific paths.
 | `figure4_*.csv` | 4 | Evaluated Alphabetical Order and Factual Judgment rows |
 | `figure5_stance_qwen25_14b.csv` | 5b-c | Evaluated answer/reason stance and reasoning categories |
 | `figure6.csv` | 6 | Cross-model layer profiles and fitted estimates |
-| `supplement_cross_domain_intervention.csv` | Supplementary Information | Value Judgment and Sentiment intervention rows across eight models, with split-qualified statement IDs |
-| `supplement_alphabetical_order.csv` | Supplementary Information | Alphabetical Order accuracy and reasoning categories |
-| `supplement_factual_judgment.csv` | Supplementary Information | Factual Judgment reasoning categories |
-| `supplement_stance_taking.csv` | Supplementary Information | Answer and reasoning stance scores |
-| `tables/valence_axis_similarity.csv` | Supplementary Table B3 | Judgment/Valence projection and axis correlations |
-| `tables/objective_task_baseline_accuracy.csv` | Supplementary Table B8 | Baseline objective-task accuracy by model |
-| `tables/reasoning_subordination_coefficients.csv` | Supplementary Table B9 | Bayesian reasoning-category coefficients |
+| `supplement_cross_domain_intervention.csv` | Supplementary Fig. S2 | Value Judgment and Sentiment intervention rows across eight models, with split-qualified statement IDs |
+| `supplement_alphabetical_order.csv` | Supplementary Fig. S4 | Alphabetical Order accuracy and reasoning categories |
+| `supplement_factual_judgment.csv` | Supplementary Fig. S5 | Factual Judgment reasoning categories |
+| `supplement_stance_taking.csv` | Supplementary Fig. S6 | Answer and reasoning stance scores |
+| `tables/valence_axis_similarity.csv` | Supplementary Table S3 | Judgment/Valence projection and axis correlations |
+| `tables/objective_task_baseline_accuracy.csv` | Supplementary Table S8 | Baseline objective-task accuracy by model |
+| `tables/reasoning_subordination_coefficients.csv` | Supplementary Table S9 | Bayesian reasoning-category coefficients |
 | `qualitative_examples/example_index.csv` | Figures 4-5 | Stable links from displayed excerpts to selected raw outputs |
 | `qualitative_examples/figure4c_qwen25_14b_selected_outputs.json` | Figure 4c | Exact baseline and conflicting-pressure generations |
 | `qualitative_examples/figure5a_qwen25_14b_selected_outputs.json` | Figure 5a | Exact oppose, baseline, and support generations |
