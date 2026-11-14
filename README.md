@@ -144,6 +144,8 @@ every transformer block. Generated files are written under
 `results/generated/` by default; this directory is excluded from version
 control.
 
+When adapting the pipeline to an unregistered model, do not assume that PC1 is necessarily response-aligned. PCA orders components by activation variance, so prompt-, topic-, or architecture-related variance may dominate in a new model. Inspect the layer-wise pc1_support_correlation and cross-format axis alignment before interpreting a component as the VAA.
+
 ## Valence and Single-Letter Order controls
 
 Validate the fixed 160-word Valence set and the two matched 100-statement
